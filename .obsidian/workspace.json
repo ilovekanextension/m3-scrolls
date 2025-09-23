@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Task Manager.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Task Manager"
             }
           },
           {
@@ -268,9 +268,10 @@
   },
   "active": "475565f298f1bcc5",
   "lastOpenFiles": [
+    "Graph Theory Glossary.md",
+    "README.md",
     "Homepage.md",
     "Library/Ring Theory/1. Basic Properties of Rings/Theorems/Multiplications with Ring Zeros.md",
-    "README.md",
     "Library/Category Theory/6. Examples of Small Limits and Colimits/Definitions/Categorical Pullback.md",
     "Library/Category Theory/6. Examples of Small Limits and Colimits/Definitions/Categorical Product.md",
     "Untitled.md",
@@ -293,7 +294,6 @@
     "Library/Order Theory/5. Strict Orders and Preorders/Theorems/Exclusivity of Disjunction Criterion of Trichotomy Property on Strict Partial Orders.md",
     "Library/Order Theory/1. Basic Properties of Orders/Definitions/Total Order.md",
     "Library/Order Theory/5. Strict Orders and Preorders/Theorems/Inverses of Strict Partial Orders as Strict Partial Orders.md",
-    "Library/Order Theory/5. Strict Orders and Preorders/Theorems/Strict Partial Orders as Assymetric Orders.md",
     "Library/Order Theory/5. Strict Orders and Preorders/Theorems",
     "Library/Order Theory/5. Strict Orders and Preorders/Definitions",
     "Library/Order Theory/5. Strict Orders and Preorders",

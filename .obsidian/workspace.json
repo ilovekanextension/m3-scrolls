@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Homepage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Homepage"
             }
           },
           {
@@ -266,10 +266,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "475565f298f1bcc5",
+  "active": "6e902253403110fe",
   "lastOpenFiles": [
-    "Homepage.md",
+    "Library/Ring Theory/1. Basic Properties of Rings/Theorems/Multiplications with Ring Zeros.md",
     "README.md",
+    "Homepage.md",
     "Library/Category Theory/6. Examples of Small Limits and Colimits/Definitions/Categorical Pullback.md",
     "Library/Category Theory/6. Examples of Small Limits and Colimits/Definitions/Categorical Product.md",
     "Untitled.md",
@@ -277,7 +278,6 @@
     "Library/Ring Theory/6. Primes and Irreducibles/Definitions/Greatest Common Divisor.md",
     "Task Manager.md",
     "Library/Ring Theory/6. Primes and Irreducibles/Theorems/Criterion for Equality of Principal Ideals by Multiplications by Units.md",
-    "Library/Ring Theory/1. Basic Properties of Rings/Theorems/Multiplications with Ring Zeros.md",
     "Library/Ring Theory/6. Primes and Irreducibles/Definitions/Unit.md",
     "Library/Ring Theory/6. Primes and Irreducibles/Definitions/Zero-Divisor.md",
     "Library/Ring Theory/6. Primes and Irreducibles/Theorems/Zeros as Multiples of All Objects in Commutative Rings.md",

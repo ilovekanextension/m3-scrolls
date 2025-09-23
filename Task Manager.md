@@ -2,5 +2,5 @@
 - [ ] Reprove dual theorems in Library - Category Theory without Principle of Duality (since it's confusing anyways)
 - [ ] Add theorems about unions and intersections of images and preimages in Library - Set Theory
 - [ ] Create a library for number theory
-- [ ] belajar KOALA
+- [ ] belajar KOALA biar menang
 

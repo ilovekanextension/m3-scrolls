@@ -1,0 +1,11 @@
+{
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "commutativediagramsize",
+    "wikilink_underlines_toggle"
+  ],
+  "accentColor": "",
+  "textFontFamily": "",
+  "baseFontSize": 13,
+  "cssTheme": ""
+}

@@ -1,0 +1,1 @@
+*Definition.* Let $A$ and $B$ be sets. Let $x_{A}$ and $x_{B}$ be distinct objects. The *disjoint union* of $A$ and $B$ is the set $$A+B=(A\times\{x_{A}\})\cup(B\times\{x_{B}\}).$$By the given set builder notation, $x\in A+B$ if and only if $x$ is an ordered pair of the form $(a,x_{A})$ where $a\in A$ or $(b,x_{B})$ where $b\in B$.

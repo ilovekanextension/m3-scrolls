@@ -1,0 +1,4 @@
+*Theorem.* Let $A$ be a set. Then, the empty set $\varnothing$ is isomorphic to the Cartesian Product $A\times\varnothing$. That is, $$\varnothing\cong A\times\varnothing.$$
+*Proof.* We will instead show that $\varnothing=A\times\varnothing$; by [[Reflexivity of Set Isomorphism Relation]], the statement in the theorem follows immediately.
+
+By [[Empty Set as Subset of Any Set]], we have $\varnothing\subseteq A\times\varnothing$. Suppose $(a,b)\in A\times\varnothing$. Then, $a\in A$ and $b\in\varnothing$. Since $\varnothing$ is empty, we have $b\notin\varnothing$, so by explosion $(a,b)\in\varnothing$. $\blacksquare$

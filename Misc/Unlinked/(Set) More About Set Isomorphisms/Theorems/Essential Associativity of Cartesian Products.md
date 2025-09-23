@@ -1,0 +1,4 @@
+*Theorem.* Let $A$, $B$, and $C$ be sets. Then, the Cartesian Products $(A\times B)\times C$ and $A\times(B\times C)$ are isomorphic. That is, $$(A\times B)\times C\cong A\times(B\times C).$$
+*Proof.* Define a function $f:(A\times B)\times C\to A\times(B\times C)$ as follows: $$f((a,b),c)=(a,(b,c)).$$We will show that $f$ is bijective; the statement in the theorem follows immediately.
+- *Injectivity.* Suppose $((a,b),c)\in (A\times B)\times C$ and $((x,y),z)\in(A\times B)\times C$, and suppose that $f((a,b),c)=f((x,y),z)$. Then, by definition of $f$, we have $(a,(b,c))=(x,(y,z))$, so $a=x$ and $(b,c)=(y,z)$ and therefore $b=y$ and $c=z$. Thus, $((a,b),c)=((x,y),z)$.
+- *Surjectivity.* Suppose $(a,(b,c))\in A\times(B\times C)$. Consider $((a,b),c)\in(A\times B)\times C$. By definition of $f$, we have $f((a,b),c)=(a,(b,c))$. $\blacksquare$

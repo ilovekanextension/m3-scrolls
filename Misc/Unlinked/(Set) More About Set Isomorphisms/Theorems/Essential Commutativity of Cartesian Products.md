@@ -1,0 +1,4 @@
+*Theorem.* Let $A$ and $B$ be sets. Then, the Cartesian Products $A\times B$ and $B\times A$ are isomorphic. That is, $$A\times B\cong B\times A.$$
+*Proof.* Define a function $f:A\times B\to B\times A$ as follows: $$f(a,b)=(b,a).$$We will show that $f$ is bijective; the statement in the theorem follows immediately.
+- *Injectivity.* Suppose $(a,b)\in A\times B$ and $(c,d)\in A\times B$, and suppose that $f(a,b)=f(c,d)$. Then, by definition of $f$ we have $(b,a)=(d,c)$, so $b=d$ and $a=c$. This means $(a,b)=(c,d)$.
+- *Surjectivity.* Suppose $(b,a)\in B\times A$. Consider $(a,b)\in A\times B$. By definition of $f$, we have $f(a,b)=(b,a)$. $\blacksquare$

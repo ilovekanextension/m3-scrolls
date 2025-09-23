@@ -1,0 +1,5 @@
+*Theorem.* For all natural numbers $a$ and $b$, we have $a+b=b+a$.
+
+*Proof.* Consider the set $$A=\{b\in \mathbb{N}\mid \forall a\in \mathbb{N} \ (a+b=b+a)\}.$$We need to show that $A=\mathbb{N}$, so by induction it is enough to prove that $0\in A$ and $A$ is closed under $\mathsf{s}$.
+- *First Statement.* Suppose $a\in \mathbb{N}$. Since $0$ is a left identity of addition, we have $a+0=a$. By [[Zero as Right Identity of Natural Number Addition]], we also have $0+a=a$, so $a+0=0+a$. This shows that $0\in A$.
+- *Second Statement.* Suppose $b\in A$. Then, for all $a\in \mathbb{N}$, we have $a+b=b+a$. Suppose $a\in \mathbb{N}$. Then, $a+b=b+a$. By recursion, we have $a+\mathsf{s}(b)=\mathsf{s}(a+b)$. Since $a+b=b+a$, we have $a+\mathsf{s}(b)=\mathsf{s}(b+a)$. By [[Commutativity of Recursion Property of Natural Number Addition]], we have $\mathsf{s}(b+a)=\mathsf{s}(b)+a$, so $a+\mathsf{s}(b)=\mathsf{s}(b)+a$. This shows that $\mathsf{s}(b)\in A$. $\blacksquare$

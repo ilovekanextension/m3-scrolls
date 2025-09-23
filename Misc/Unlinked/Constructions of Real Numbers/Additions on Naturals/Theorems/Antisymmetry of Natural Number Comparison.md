@@ -1,0 +1,5 @@
+*Theorem.* For all natural numbers $a$ and $b$, if $a\leq b$ and $b\leq a$, then $a=b$.
+
+*Proof.* Consider the set $$A=\{b\in \mathbb{N}\mid \forall a\in \mathbb{N} \ ((a\leq b\wedge b\leq a)\Rightarrow a=b)\}.$$We need to show that $A=\mathbb{N}$, so by induction it is enough to prove that $0\in A$ and $A$ is closed under $\mathsf{s}$.
+- *First Statement.* Suppose $a\in \mathbb{N}$. Suppose $a\leq 0$ and $0\leq a$. Since $a\leq 0$, by [[Zero as Least and Minimal Element of Natural Number Comparison]] we have $a=0$.
+- *Second Statement.* Suppose $b\in A$. Suppose $a\in \mathbb{N}$. Suppose $a\leq \mathsf{s}(b)$ and $\mathsf{s}(b)\leq a$. Then, there are $k,l\in \mathbb{N}$ such that $\mathsf{s}(b)=a+k$ and $a=\mathsf{s}(b)+l$. By [[Commutativity of Recursion Property of Natural Number Addition]], we have $a=\mathsf{s}(b+l)$, so $\mathsf{s}(b)=\mathsf{s}(b+l)+k=\mathsf{s}((b+l)+k)$. Since $\mathsf{s}$ is injective, we have $b=(b+l)+k$.

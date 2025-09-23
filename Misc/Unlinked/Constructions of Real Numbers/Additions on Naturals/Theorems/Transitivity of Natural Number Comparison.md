@@ -1,0 +1,3 @@
+*Theorem.* The natural number comparison is transitive. That is, for all $a,b,c\in \mathbb{N}$, if $a\leq b$ and $b\leq c$, then $a\leq c$.
+
+*Proof.* Suppose $a,b,c\in \mathbb{N}$, and suppose that $a\leq b$ and $b\leq c$. Then, there are natural numbers $k,l\in \mathbb{N}$ such that $b=a+k$ and $c=b+l$. We then have $c=(a+k)+l$. By [[Associativity of Natural Number Addition]], we therefore have $c=a+(k+l)$, so $a\leq c$. $\blacksquare$

@@ -1,0 +1,1 @@
+**Definition.** Let $a,b\in \mathbb{Z}$. We say that $a$ **divides** $b$, that $a$ is a **divisor** of $b$, or that $b$ is a **multiple** of $a$, if there is $k\in \mathbb{Z}$ such that $$b=k\cdot a.$$If $a$ divides $b$, we may write $a|b$.

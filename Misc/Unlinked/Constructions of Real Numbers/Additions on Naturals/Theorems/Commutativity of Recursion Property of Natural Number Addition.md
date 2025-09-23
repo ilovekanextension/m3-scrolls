@@ -1,0 +1,5 @@
+*Theorem.* For all natural numbers $a$ and $b$, we have $\mathsf{s}(a)+b=\mathsf{s}(a+b)$.
+
+*Proof.* Consider the set $$A=\{b\in \mathbb{N}\mid \forall a\in \mathbb{N} \ (\mathsf{s}(a)+b=\mathsf{s}(a+b))\}.$$We need to show that $A=\mathbb{N}$, so it is enough to prove that $0\in A$ and $A$ is closed under $\mathsf{s}$.
+- *First Statement.* Suppose $a\in \mathbb{N}$. Since $0$ is a left identity of addition, we have $a+0=0$ and $\mathsf{s}(a)+0=\mathsf{s}(a)$. Therefore, $\mathsf{s}(a)+0=\mathsf{s}(a)=\mathsf{s}(a+0)$, so $0\in A$.
+- *Second Statement.* Suppose $b\in A$. Suppose $a\in \mathbb{N}$. Then, $\mathsf{s}(a)+b=\mathsf{s}(a+b)$. By recursion property of addition, we have $\mathsf{s}(a)+\mathsf{s}(b)=\mathsf{s}(\mathsf{s}(a)+b)$. Since $\mathsf{s}(a)+b=\mathsf{s}(a+b)$, we then have $\mathsf{s}(a)+\mathsf{s}(b)=\mathsf{s}(\mathsf{s}(a+b))$, so by recursion we have $\mathsf{s}(a)+\mathsf{s}(b)=\mathsf{s}(a+\mathsf{s}(b))$. This shows that $\mathsf{s}(b)\in A$. $\blacksquare$

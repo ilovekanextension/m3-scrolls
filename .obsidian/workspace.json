@@ -1,0 +1,283 @@
+{
+  "main": {
+    "id": "e347d46a3e913750",
+    "type": "split",
+    "children": [
+      {
+        "id": "b753e21742b30572",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2196114399bf87e7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Homepage.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Homepage"
+            }
+          },
+          {
+            "id": "6e62f63b0a43092a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Task Manager.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Task Manager"
+            }
+          },
+          {
+            "id": "a46ae566cf2ef258",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Library/Category Theory/6. Examples of Small Limits and Colimits/Definitions/Categorical Pullback.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Categorical Pullback"
+            }
+          },
+          {
+            "id": "b97bea27582efba2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "306aea94d2cdc8c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Library/Category Theory/6. Examples of Small Limits and Colimits/Definitions/Categorical Product.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Categorical Product"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "485bd062afe24fce",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c218fa569361fc5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e902253403110fe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b33b43864042bcf8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b53015449223b127",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 257.5
+  },
+  "right": {
+    "id": "ec31265964e06e5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a80e8df40485930e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fac43b0a11f019f7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Library/Ring Theory/6. Primes and Irreducibles/Definitions/Greatest Common Divisor.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Greatest Common Divisor"
+            }
+          },
+          {
+            "id": "e5b66ce6ce12239a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Homepage.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Homepage"
+            }
+          },
+          {
+            "id": "36bd810efda1136a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f874579dc9df32b7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Library/Category Theory/Natural Transformations Between Functors/Theorems/Criterion of Equivalence Functors.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Criterion of Equivalence Functors"
+            }
+          },
+          {
+            "id": "68985b142db0b1da",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false
+    }
+  },
+  "active": "2196114399bf87e7",
+  "lastOpenFiles": [
+    "Library/Category Theory/6. Examples of Small Limits and Colimits/Definitions/Categorical Pullback.md",
+    "Library/Category Theory/6. Examples of Small Limits and Colimits/Definitions/Categorical Product.md",
+    "Homepage.md",
+    "Untitled.md",
+    "Misc/Templates/Node-Edge Diagram.md",
+    "Library/Ring Theory/6. Primes and Irreducibles/Definitions/Greatest Common Divisor.md",
+    "Untitled 1.md",
+    "Task Manager.md",
+    "Library/Ring Theory/6. Primes and Irreducibles/Theorems/Criterion for Equality of Principal Ideals by Multiplications by Units.md",
+    "Library/Ring Theory/1. Basic Properties of Rings/Theorems/Multiplications with Ring Zeros.md",
+    "Library/Ring Theory/6. Primes and Irreducibles/Definitions/Unit.md",
+    "Library/Ring Theory/6. Primes and Irreducibles/Definitions/Zero-Divisor.md",
+    "Library/Ring Theory/6. Primes and Irreducibles/Theorems/Zeros as Multiples of All Objects in Commutative Rings.md",
+    "Library/Ring Theory/6. Primes and Irreducibles/Theorems/Ones as Divisors of All Objects in Commutative Rings.md",
+    "Library/Ring Theory/6. Primes and Irreducibles/Theorems/Divisibility Relations in Commutative Rings as Preorders.md",
+    "Library/Order Theory/5. Strict Orders and Preorders/Theorems/Inverses of Total Preorders as Total Preorders.md",
+    "Library/Order Theory/5. Strict Orders and Preorders/Definitions/Total Preorder.md",
+    "Library/Order Theory/5. Strict Orders and Preorders/Definitions/Strict Total Order.md",
+    "Library/Order Theory/5. Strict Orders and Preorders/Theorems/Inverses of Preorders as Preorders.md",
+    "Library/Order Theory/5. Strict Orders and Preorders/Definitions/Preorder.md",
+    "Library/Order Theory/1. Basic Properties of Orders/Theorems/Inverses of Partial Orders as Partial Orders.md",
+    "Library/Order Theory/5. Strict Orders and Preorders/Theorems/Inverses of Strict Total Orders as Strict Total Orders.md",
+    "Library/Order Theory/5. Strict Orders and Preorders/Theorems/Exclusivity of Disjunction Criterion of Trichotomy Property on Strict Partial Orders.md",
+    "Library/Order Theory/1. Basic Properties of Orders/Definitions/Total Order.md",
+    "Library/Order Theory/5. Strict Orders and Preorders/Theorems/Inverses of Strict Partial Orders as Strict Partial Orders.md",
+    "Library/Order Theory/5. Strict Orders and Preorders/Theorems/Strict Partial Orders as Assymetric Orders.md",
+    "Library/Order Theory/5. Strict Orders and Preorders/Theorems",
+    "Library/Order Theory/5. Strict Orders and Preorders/Definitions",
+    "Library/Order Theory/5. Strict Orders and Preorders",
+    "Library/Real Analysis/1. Algebraic and Order Properties of The Real Numbers/Theorems",
+    "Library/Real Analysis/1. Algebraic and Order Properties of The Real Numbers/Definitions",
+    "Library/Ring Theory/6. Primes and Irreducibles/Theorems",
+    "Library/Ring Theory/6. Primes and Irreducibles/Definitions",
+    "Library/Ring Theory/6. Primes and Irreducibles",
+    "Untitled.base",
+    "Library/Real Analysis/1. Algebraic and Order Properties of The Real Numbers",
+    "Untitled.canvas"
+  ]
+}

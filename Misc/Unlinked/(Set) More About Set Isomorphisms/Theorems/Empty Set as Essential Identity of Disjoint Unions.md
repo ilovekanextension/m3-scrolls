@@ -1,0 +1,4 @@
+*Theorem.* Let $A$ be a set. Then, $A$ is isomorphic to the disjoint union $A+\varnothing$. That is, $$A\cong A+\varnothing.$$
+*Proof.* Define a function $f:A\to A+\varnothing$ as follows: $$f(a)=(a,x_{A}).$$We will show that $f$ is bijective; the statement in the theorem follows immediately.
+- *Injectivity.* Suppose $a,b\in A$, and suppose that $f(a)=f(b)$. Then, by definition of $f$, $(a,x_{A})=(b,x_{A})$, so $a=b$.
+- *Surjectivity.* Suppose $(a,x)\in A+\varnothing$. Then, $(a,x)\in A\times\{x_{A}\}$ or $(a,x)\in\varnothing\times\{x_{\varnothing}\}$. By [[Empty Set as Essential Zero Element of Cartesian Products]], we therefore must have $(a,x)\in A\times\{x_{A}\}$, so $a\in A$ and $x=x_{A}$. Notice that $f(a)=(a,x_{A})=(a,x)$. $\blacksquare$

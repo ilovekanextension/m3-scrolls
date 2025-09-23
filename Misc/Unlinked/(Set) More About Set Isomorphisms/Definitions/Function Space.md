@@ -1,0 +1,1 @@
+*Definition.* Let $A$ and $B$ be sets. The *function space* from $A$ to $B$ is the set $$B^A=\{f\subseteq A\times B\mid \forall a\in A \ \exists! b\in B \ (a,b)\in f\}$$of all functions from $A$ to $B$. Saying that $f:A\to B$ is therefore equivalent to saying that $f\in B^A$.

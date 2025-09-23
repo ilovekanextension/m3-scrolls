@@ -1,0 +1,5 @@
+*Theorem.* Let $A$ be a set. Then, the function space $A^{\varnothing}$ is a singleton set. More precisely, there is a unique function from $\varnothing$ to $A$.
+
+*Proof.* Consider a potential function $f:\varnothing\to A$. By [[Empty Set as Essential Zero Element of Cartesian Products]], we have $\varnothing\times A=\varnothing$, so we must have $f\subseteq \varnothing$. By [[Empty Set as Subset of Any Set]], we have $\varnothing\subseteq f$, so we must have $f=\varnothing$. Therefore, the function $f$, if it exists, must be unique, so we only need to check that $\varnothing\subseteq \varnothing\times A$ is a function.
+- *Totality.* Clearly $\text{Dom}(\varnothing)\subseteq\varnothing$. By [[Empty Set as Subset of Any Set]], we have $\varnothing\subseteq \text{Dom}(\varnothing)$, so $\text{Dom}(\varnothing)=\varnothing$.
+- *Functionality.* Suppose $a\in\varnothing$ and $b,c\in A$, and suppose that $(a,b)\in\varnothing$ and $(a,c)\in\varnothing$. Since $a\in\varnothing$, by explosion $b=c$. $\blacksquare$

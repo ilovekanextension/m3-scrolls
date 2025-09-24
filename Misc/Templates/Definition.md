@@ -1,6 +1,6 @@
 **Definition.**
 
 ***
-Definitions used;
+Definitions used:
 
 Theorems used:

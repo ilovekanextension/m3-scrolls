@@ -48,14 +48,23 @@ commute, there is a unique morphism $k:p\to q$ such that the diagram
 \begin{document}
 \begin{tikzcd}
  & p & \\
-b & q & a \\
+b & q & a
 \arrow["k" description, from=1-2, to=2-2]
 \arrow["y", from=2-2, to=2-1]
 \arrow["x", from=2-2, to=2-3, swap]
-\arrow["\phi_2", from=1-2, to=2-1]
+\arrow["\phi_2", from=1-2, to=2-1, swap]
 \arrow["\phi_1", from=1-2, to=2-3]
 \end{tikzcd}
 \end{document}
 ```
 
 commutes.
+
+By [[Uniqueness of Categorical Pullbacks]], the pullback of $f$ and $g$, if it exists, is unique up to isomorphism. Therefore, we can speak of **the** pullback of $f$ and $g$. The pullback of $f$ and $g$ is denoted as $a\times_{c} b$.
+***
+Definitions used:
+- [[Category]]
+- [[Categorical Diagram]]
+
+Theorems used:
+- [[Uniqueness of Categorical Pullbacks]]

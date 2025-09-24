@@ -24,20 +24,6 @@
             }
           },
           {
-            "id": "475565f298f1bcc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
             "id": "6e62f63b0a43092a",
             "type": "leaf",
             "pinned": true,
@@ -54,35 +40,7 @@
             }
           },
           {
-            "id": "a46ae566cf2ef258",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Library/Category Theory/6. Examples of Small Limits and Colimits/Definitions/Categorical Pullback.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Categorical Pullback"
-            }
-          },
-          {
-            "id": "b97bea27582efba2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "306aea94d2cdc8c2",
+            "id": "dce89acd1096b9dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,9 +52,23 @@
               "icon": "lucide-file",
               "title": "Categorical Product"
             }
+          },
+          {
+            "id": "25f3454d9f094244",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Misc/Templates/Definition.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Definition"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -169,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Library/Ring Theory/6. Primes and Irreducibles/Definitions/Greatest Common Divisor.md",
+                "file": "Library/Category Theory/6. Examples of Small Limits and Colimits/Theorems/Uniqueness of Categorical Pullbacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +151,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Greatest Common Divisor"
+              "title": "Backlinks for Uniqueness of Categorical Pullbacks"
             }
           },
           {
@@ -188,12 +160,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Misc/Templates/Definition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from Definition"
             }
           },
           {
@@ -232,8 +204,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -263,21 +235,28 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "475565f298f1bcc5",
+  "active": "25f3454d9f094244",
   "lastOpenFiles": [
+    "Misc/Templates/Theorem.md",
+    "Misc/Templates/Definition.md",
     "Homepage.md",
-    "Library/Ring Theory/1. Basic Properties of Rings/Theorems/Multiplications with Ring Zeros.md",
-    "README.md",
+    "Task Manager.md",
     "Library/Category Theory/6. Examples of Small Limits and Colimits/Definitions/Categorical Pullback.md",
     "Library/Category Theory/6. Examples of Small Limits and Colimits/Definitions/Categorical Product.md",
-    "Untitled.md",
+    "Library/Category Theory/6. Examples of Small Limits and Colimits/Theorems/Uniqueness of Categorical Products.md",
+    "Library/Category Theory/6. Examples of Small Limits and Colimits/Theorems/Uniqueness of Categorical Pullbacks.md",
+    "README.md",
+    "Library/Category Theory/6. Examples of Small Limits and Colimits/Theorems/Terminal Objects as Representations of Functors Into Singletons.md",
     "Misc/Templates/Node-Edge Diagram.md",
+    "Library/Set Theory/9. The Category of Sets and Functions/Theorems/Universal Property of Images of Functions.md",
+    "Untitled.md",
     "Library/Ring Theory/6. Primes and Irreducibles/Definitions/Greatest Common Divisor.md",
-    "Task Manager.md",
     "Library/Ring Theory/6. Primes and Irreducibles/Theorems/Criterion for Equality of Principal Ideals by Multiplications by Units.md",
+    "Library/Ring Theory/1. Basic Properties of Rings/Theorems/Multiplications with Ring Zeros.md",
     "Library/Ring Theory/6. Primes and Irreducibles/Definitions/Unit.md",
     "Library/Ring Theory/6. Primes and Irreducibles/Definitions/Zero-Divisor.md",
     "Library/Ring Theory/6. Primes and Irreducibles/Theorems/Zeros as Multiples of All Objects in Commutative Rings.md",
@@ -288,12 +267,6 @@
     "Library/Order Theory/5. Strict Orders and Preorders/Definitions/Strict Total Order.md",
     "Library/Order Theory/5. Strict Orders and Preorders/Theorems/Inverses of Preorders as Preorders.md",
     "Library/Order Theory/5. Strict Orders and Preorders/Definitions/Preorder.md",
-    "Library/Order Theory/1. Basic Properties of Orders/Theorems/Inverses of Partial Orders as Partial Orders.md",
-    "Library/Order Theory/5. Strict Orders and Preorders/Theorems/Inverses of Strict Total Orders as Strict Total Orders.md",
-    "Library/Order Theory/5. Strict Orders and Preorders/Theorems/Exclusivity of Disjunction Criterion of Trichotomy Property on Strict Partial Orders.md",
-    "Library/Order Theory/1. Basic Properties of Orders/Definitions/Total Order.md",
-    "Library/Order Theory/5. Strict Orders and Preorders/Theorems/Inverses of Strict Partial Orders as Strict Partial Orders.md",
-    "Library/Order Theory/5. Strict Orders and Preorders/Theorems/Strict Partial Orders as Assymetric Orders.md",
     "Library/Order Theory/5. Strict Orders and Preorders/Theorems",
     "Library/Order Theory/5. Strict Orders and Preorders/Definitions",
     "Library/Order Theory/5. Strict Orders and Preorders",

@@ -1,4 +1,4 @@
-**Definition.** Let $\mathsf{C}$ and $\mathsf{D}$ be categories. Let $F:\mathsf{C}\to \mathsf{D}$. By [[Maps Into Identity Morphisms as Natural Transformations]], the map $\iota$ that assigns to each object $a$ in $\mathsf{C}$ the morphism $$\iota_{a}=\text{id}_{F(a)}$$is a natural transformation on $F$. We call this natural transformation as the **identity natural transformation** of $F$ and denote it as $\text{id}_{F}$.
+**Definition.** Let $\mathsf{C}$ and $\mathsf{D}$ be categories. Let $F:\mathsf{C}\to \mathsf{D}$. By [[Maps Into Identity Morphisms as Natural Transformations]], the transformation $\iota$ from $F$ to $F$ defined as $$\iota_{A}=\text{id}_{F(A)}$$is a natural transformation. We call this natural transformation as the **identity natural transformation** of $F$ and denote it as $\text{id}_{F}$.
 ***
 Definitions used:
 - [[Category]]

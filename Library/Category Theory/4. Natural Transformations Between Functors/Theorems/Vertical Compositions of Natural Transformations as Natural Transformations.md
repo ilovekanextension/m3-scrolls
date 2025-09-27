@@ -1,6 +1,6 @@
-**Theorem.** Let $\mathsf{C}$ and $\mathsf{D}$ be categories. Let $F,G,H:\mathsf{C}\to \mathsf{D}$. Let $\nu:F\Rightarrow G$ and $\sigma:G\Rightarrow H$. Then, the map $\alpha$ that assigns to each object $a$ in $\mathsf{C}$ the morphism $$\alpha_{a}=\sigma_{a}\circ \nu_{a}$$is a natural transformation from $F$ to $H$.
+**Theorem.** Let $\mathsf{C}$ and $\mathsf{D}$ be categories. Let $F,G,H:\mathsf{C}\to \mathsf{D}$. Let $\nu:F\Rightarrow G$ and $\sigma:G\Rightarrow H$. Then, the transformation $\alpha$ from $F$ to $H$ defined as $$\alpha_{A}=\sigma_{A}\circ \nu_{A}$$is a natural transformation.
 
-**Proof.** Suppose $f:a\to b$ is a morphism in $\mathsf{C}$. Consider the following diagram (hereafter denoted as (1)).
+**Proof.** Suppose $f:A\to B$ is a morphism in $\mathsf{C}$. Consider the following diagram (1).
 
 ```tikz
 \usepackage{amsmath, amssymb, amsfonts, tikz-cd}
@@ -8,13 +8,17 @@
 \tikzcdset{arrow style = tikz, diagrams = {>=stealth}}
 \begin{document}
 \begin{tikzcd}
-F(a) \arrow["F(f)", r] \arrow["\alpha_a", d] & F(b) \arrow["\alpha_b", d] \\
-H(a) \arrow["H(f)", r] & H(b)
+F(A) & F(B) \\
+H(A) & H(B)
+\arrow["F(f)", from=1-1, to=1-2]
+\arrow["\alpha_A", from=1-1, to=2-1]
+\arrow["H(f)", from=2-1, to=2-2]
+\arrow["\alpha_B", from=1-2, to=2-2]
 \end{tikzcd}
 \end{document}
 ```
 
-By definition, $\alpha_{a}=\sigma_{a}\circ \nu_{a}$ and $\alpha_{b}=\sigma_{b}\circ \nu_{b}$. We can therefore extend (1) into the following diagram (hereafter denoted as (2)).
+By definition, $\alpha_{A}=\sigma_{A}\circ \nu_{A}$ and $\alpha_{B}=\sigma_{B}\circ \nu_{B}$. We can therefore extend (1) into the following diagram (2).
 
 ```tikz
 \usepackage{amsmath, amssymb, amsfonts, tikz-cd}
@@ -22,9 +26,18 @@ By definition, $\alpha_{a}=\sigma_{a}\circ \nu_{a}$ and $\alpha_{b}=\sigma_{b}\c
 \tikzcdset{arrow style = tikz, diagrams = {>=stealth}}
 \begin{document}
 \begin{tikzcd}
-F(a) \arrow["F(f)", r] \arrow["\nu_a", d] \arrow["\alpha_a" description, dd, bend right=50, dashed] & F(b) \arrow["\nu_b", d] \arrow["\alpha_b" description, dd, bend left=50, dashed] \\
-G(a) \arrow["G(f)", r] \arrow["\sigma_a", d] & G(b) \arrow["\sigma_b", d] \\
-H(a) \arrow["H(f)", r] & H(b)
+F(A) & F(B) \\
+G(A) & G(B) \\
+H(A) & H(B)
+\arrow["F(f)", from=1-1, to=1-2]
+\arrow["G(f)", from=2-1, to=2-2]
+\arrow["H(f)", from=3-1, to=3-2]
+\arrow["\nu_A", from=1-1, to=2-1]
+\arrow["\sigma_A", from=2-1, to=3-1]
+\arrow["\nu_B", from=1-2, to=2-2]
+\arrow["\sigma_B", from=2-2, to=3-2]
+\arrow["\alpha_A" description, from=1-1, to=3-1, dashed, bend right=50]
+\arrow["\alpha_B" description, from=1-2, to=3-2, dashed, bend left=50]
 \end{tikzcd}
 \end{document}
 ```

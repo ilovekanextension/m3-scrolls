@@ -1,18 +1,18 @@
 **Theorem.** Let $\mathsf{C}$, $\mathsf{D}$, and $\mathsf{E}$ be categories. Let $F:\mathsf{C}\to \mathsf{D}$ and $G:\mathsf{D}\to \mathsf{E}$. Then, the map $H$ from $\mathsf{C}$ to $\mathsf{E}$ that assigns
-- to each object $a$ in $\mathsf{C}$ the object $H(a)=G(F(a))$ in $\mathsf{E}$ and
-- to each morphism $f:a\to b$ in $\mathsf{C}$ the morphism $H(f)=G(F(f))$ in $\mathsf{E}$
+- to each object $A$ in $\mathsf{C}$ the object $H(A)=G(F(A))$ in $\mathsf{E}$ and
+- to each morphism $f:A\to B$ in $\mathsf{C}$ the morphism $H(f)=G(F(f))$ in $\mathsf{E}$
 
 is a functor.
 
 **Proof.**
-- **Preservation of Identities.** Suppose $a$ is an object in $\mathsf{C}$. Since $F$ is a functor, by definition it preserves identity morphisms, so $$F(\text{id}_{a})=\text{id}_{F(a)}.$$Since $G$ is a functor, by definition it also preserves identity morphisms, so $$G(\text{id}_{F(a)})=\text{id}_{G(F(a))}.$$We therefore have 
+- **Preservation of Identities.** Suppose $A$ is an object in $\mathsf{C}$. Since $F$ is a functor, by definition it preserves identity morphisms, so $$F(\text{id}_{A})=\text{id}_{F(A)}.$$Since $G$ is a functor, by definition it also preserves identity morphisms, so $$G(\text{id}_{F(A)})=\text{id}_{G(F(A))}.$$We therefore have 
   $$\begin{align}
-H(\text{id}_{a}) & =G(F(\text{id}_{a})) \\
- & =G(\text{id}_{F(a)}) \\
- & =\text{id}_{G(F(a))} \\
- & =\text{id}_{H(a)}.
+H(\text{id}_{A}) & =G(F(\text{id}_{A})) \\
+ & =G(\text{id}_{F(A)}) \\
+ & =\text{id}_{G(F(A))} \\
+ & =\text{id}_{H(A)}.
 \end{align}$$
-- **Preservation of Composition.** Suppose $f:a\to b$ and $g:b\to c$ are morphisms in $\mathsf{C}$. Since $F$ is a functor, by definition it preserves composition, so $$F(g\circ f)=F(g)\circ F(f).$$Since $G$ is a functor, by definition it also preserves composition, so $$G(F(g)\circ F(f))=G(F(g))\circ G(F(f)).$$We therefore have
+- **Preservation of Composition.** Suppose $f:A\to B$ and $g:B\to C$ are morphisms in $\mathsf{C}$. Since $F$ is a functor, by definition it preserves composition, so $$F(g\circ f)=F(g)\circ F(f).$$Since $G$ is a functor, by definition it also preserves composition, so $$G(F(g)\circ F(f))=G(F(g))\circ G(F(f)).$$We therefore have
   $$\begin{align}
 H(g\circ f) & =G(F(g\circ f)) \\
  & =G(F(g)\circ F(f)) \\

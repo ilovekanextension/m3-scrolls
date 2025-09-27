@@ -1,6 +1,6 @@
 **Definition.** Let $\mathsf{C}$, $\mathsf{D}$, and $\mathsf{E}$ be categories.
-1. Let $H:\mathsf{C}\to \mathsf{D}$ and $F,G:\mathsf{D}\to \mathsf{E}$. Let $\nu:F\Rightarrow G$. The **whiskering** of $H$ and $\nu$, denoted $\nu H$, is the horizontal composition of $\text{id}_{H}$ and $\nu$. Thus, $\nu H=\nu*\text{id}_{H}$, so for all objects $a$ in $\mathsf{C}$ we have $$(\nu H)_{a}=(\nu*\text{id}_{H})_{a}=\nu_{H(a)}.$$
-2. Let $F,G:\mathsf{C}\to \mathsf{D}$ and $H:\mathsf{D}\to \mathsf{E}$. Let $\nu:F\Rightarrow G$. The **whiskering** of $\nu$ and $H$, denoted $H \nu$, is the horizontal composition of $\nu$ and $\text{id}_{H}$. Thus, $H \nu=\text{id}_{H}*\nu$, so for all objects $a$ in $\mathsf{C}$ we have $$(H \nu)_{a}=(\text{id}_{H}*\nu)_{a}=H(\nu_{a}).$$
+1. Let $H:\mathsf{C}\to \mathsf{D}$ and $F,G:\mathsf{D}\to \mathsf{E}$. Let $\nu:F\Rightarrow G$. The **whiskering** of $H$ and $\nu$, denoted $\nu H$, is the horizontal composition of $\text{id}_{H}$ and $\nu$. That is, we define $$\nu H=\nu*\text{id}_{H}.$$Therefore, for all objects $A$ in $\mathsf{C}$ we have $$(\nu H)_{A}=(\nu*\text{id}_{H})_{A}=\nu_{H(A)}.$$
+2. Let $F,G:\mathsf{C}\to \mathsf{D}$ and $H:\mathsf{D}\to \mathsf{E}$. Let $\nu:F\Rightarrow G$. The **whiskering** of $\nu$ and $H$, denoted $H \nu$, is the horizontal composition of $\nu$ and $\text{id}_{H}$. That is, we define $$H\nu=\text{id}_{H}*\nu.$$Therefore, for all objects $A$ in $\mathsf{C}$ we have $$(H \nu)_{A}=(\text{id}_{H}*\nu)_{A}=H(\nu_{A}).$$
 
 ***
 Definitions used:

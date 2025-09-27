@@ -1,7 +1,7 @@
 **Theorem.** Let $\mathsf{C}$ and $\mathsf{D}$ be categories. Let $F:\mathsf{C}\to \mathsf{D}$ be full and faithful. Then, $F$ is also essentially injective in the following sense:
-- For all objects $a$ and $b$ in $\mathsf{C}$, if $F(a)\cong F(b)$, then $a\cong b$.
+- For all objects $A$ and $B$ in $\mathsf{C}$, if $F(A)\cong F(B)$, then $A\cong B$.
 
-**Proof.** Suppose $a$ and $b$ are objects in $\mathsf{C}$, and suppose that $F(a)\cong F(b)$. Then, by definition there is an isomorphism $g:F(a)\to F(b)$. Since $F$ is full, there is $f:a\to b$ in $\mathsf{C}$ such that $F(f)=g$. Since $F$ is full and faithful, by [[Reflection of Isomorphisms Under Full and Faithful Functors]], $f$ is an isomorphism, so $a\cong b$. $\blacksquare$
+**Proof.** Suppose $A$ and $B$ are objects in $\mathsf{C}$, and suppose that $F(A)\cong F(B)$. Then, by definition there is an isomorphism $g:F(A)\to F(B)$. Since $F$ is full, there is $f:A\to B$ in $\mathsf{C}$ such that $F(f)=g$. Since $F$ is full and faithful, by [[Reflection of Isomorphisms Under Full and Faithful Functors]], $f$ is an isomorphism, so $A\cong B$. $\blacksquare$
 ***
 Definitions used:
 - [[Category]]

@@ -6,6 +6,7 @@
 	1. **Identities.** Any locally small category $\mathsf{C}$ in $\mathsf{LCat}$ has an identity functor $\text{id}_{\mathsf{C}}:\mathsf{C}\to \mathsf{C}$.
 	2. **Composition.** Functors $F:\mathsf{C}\to \mathsf{D}$ and $G:\mathsf{D}\to \mathsf{E}$ in $\mathsf{LCat}$ can be composed into $G\circ F:\mathsf{C}\to \mathsf{E}$.
 
+Since all small categories are locally small, categories in $\mathsf{Cat}$ are also in $\mathsf{LCat}$. Therefore, it is usually more convenient to work in $\mathsf{LCat}$.
 ***
 Definitions used:
 - [[Category]]

@@ -3,4 +3,5 @@
 - [ ] Add theorems about unions and intersections of images and preimages in Library - Set Theory
 - [ ] Create a library for number theory
 - [ ] belajar KOALA biar menang
+- [ ] Change symbols for objects of categories in Library - Category Theory to be uppercase instead of lowercase letters
 

@@ -6,10 +6,10 @@
 \tikzcdset{arrow style = tikz, diagrams = {>=stealth}}
 \begin{document}
 \begin{tikzcd}
-a_1 & b_1 \\
-a_2 & b_2
+A_1 & B_1 \\
+A_2 & B_2
 \arrow["x_1", from=1-1, to=1-2]
-\arrow["f", from=1-1, to=2-1]
+\arrow["f", from=1-1, to=2-1, swap]
 \arrow["x_2", from=2-1, to=2-2]
 \arrow["g", from=1-2, to=2-2]
 \end{tikzcd}
@@ -24,8 +24,8 @@ Suppose that $f$ and $g$ are isomorphisms. Then, the diagram
 \tikzcdset{arrow style = tikz, diagrams = {>=stealth}}
 \begin{document}
 \begin{tikzcd}
-a_1 & b_1 \\
-a_2 & b_2
+A_1 & B_1 \\
+A_2 & B_2
 \arrow["x_1", from=1-1, to=1-2]
 \arrow["f^{-1}", from=2-1, to=1-1]
 \arrow["x_2", from=2-1, to=2-2]

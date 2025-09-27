@@ -6,9 +6,9 @@
 \tikzcdset{arrow style = tikz, diagrams = {>=stealth}}
 \begin{document}
 \begin{tikzcd}
-a_1 & b_1 \\
-a_2 & b_2 \\
-a_3 & b_3
+A_1 & B_1 \\
+A_2 & B_2 \\
+A_3 & B_3
 \arrow["x_1", from=1-1, to=1-2]
 \arrow["x_2", from=2-1, to=2-2]
 \arrow["x_3", from=3-1, to=3-2]
@@ -28,8 +28,8 @@ Suppose that the upper and the lower squares both commute. Then, the outer squar
 \tikzcdset{arrow style = tikz, diagrams = {>=stealth}}
 \begin{document}
 \begin{tikzcd}
-a_1 & b_1 \\
-a_3 & b_3
+A_1 & B_1 \\
+A_3 & B_3
 \arrow["x_1", from=1-1, to=1-2]
 \arrow["x_3", from=2-1, to=2-2]
 \arrow["g\circ f", from=1-1, to=2-1, swap]

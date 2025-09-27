@@ -45,22 +45,22 @@ Then, $$K(\sigma\circ \nu)=K\sigma\circ K\nu.$$Likewise, let the following be a 
 ```
 
 Then, $$(\sigma\circ \nu)K=\sigma K\circ \nu K.$$
-**Proof of First Statement.** Suppose $a$ is an object in $\mathsf{C}$. We have
+**Proof of First Statement.** For all objects $A$ in $\mathsf{C}$ we have
 $$\begin{align}
-(K(\sigma\circ \nu))_{a} & =K((\sigma \circ \nu)_{a}) \\
- & =K(\sigma_{a}\circ \nu_{a}) \\
- & =K(\sigma_{a})\circ K(\nu_{a}) \\
- & =(K\sigma)_{a}\circ(K\nu_{a}) \\
- & =(K\sigma\circ K\nu)_{a}.
+(K(\sigma\circ \nu))_{A} & =K((\sigma \circ \nu)_{A}) \\
+ & =K(\sigma_{A}\circ \nu_{A}) \\
+ & =K(\sigma_{A})\circ K(\nu_{A}) \\
+ & =(K\sigma)_{A}\circ(K\nu_{A}) \\
+ & =(K\sigma\circ K\nu)_{A}.
 \end{align}$$
 Therefore, $K(\sigma\circ \nu)=K\sigma\circ K\nu$. $\blacksquare$
 
-**Proof of Second Statement.** Suppose $a$ is an object in $\mathsf{C}$. We have
+**Proof of Second Statement.** For all objects $A$ in $\mathsf{C}$ we have
 $$\begin{align}
-((\sigma\circ \nu)K)_{a} & =(\sigma\circ \nu)_{K(a)} \\
- & =\sigma_{K(a)}\circ \nu_{K(a)} \\
- & =(\sigma K)_{a}\circ(\nu K)_{a} \\
- & =(\sigma K\circ \nu K)_{a}.
+((\sigma\circ \nu)K)_{A} & =(\sigma\circ \nu)_{K(A)} \\
+ & =\sigma_{K(A)}\circ \nu_{K(A)} \\
+ & =(\sigma K)_{A}\circ(\nu K)_{A} \\
+ & =(\sigma K\circ \nu K)_{A}.
 \end{align}$$
 Therefore, $(\sigma\circ \nu)K=\sigma K\circ \nu K$. $\blacksquare$
 ***

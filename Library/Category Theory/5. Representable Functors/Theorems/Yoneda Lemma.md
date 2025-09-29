@@ -146,7 +146,7 @@ F(X) & F(A)
 \end{document}
 ```
 
-commutes. By [[Evaluations of Composite Functions]], for all natural transformations $\alpha:h_{X}\Rightarrow F$ mapping $\alpha$ along the lower functions of (3) gives $$[F(f)\circ\phi](\alpha)=[F(f)](\phi(\alpha))=[\gamma(\phi(\alpha))]_{A}(f)$$whereas mapping $\alpha$ along the upper functions of (3) gives $$[\phi_{A}\circ(-\circ h_{f})](\alpha)=\phi_{A}(\alpha\circ h_{f})=(\alpha\circ h_{f})_{A}(\text{id}_{A})=[\alpha_{A}\circ (h_{f})_{A}](\text{id}_{A})=\alpha_{A}(f\circ \text{id}_{A})=\alpha_{A}(f).$$This is precisely the commutativity of (2), so (3) commutes. To show that $\phi$ is natural in $F$, suppose $\nu:F\Rightarrow G$. Define a function $\phi_{G}:\mathsf{Set}^\mathsf{C}(h_{X},G)\to G(X)$ similarly to $\phi$ as $$\phi_{G}(\alpha)=\alpha_{X}(\text{id}_{X}).$$We need to show that the diagram (4)
+commutes. By [[Evaluations of Composite Functions]], for all natural transformations $\alpha:h_{X}\Rightarrow F$ mapping $\alpha$ along the lower functions of (3) gives $$[F(f)\circ\phi](\alpha)=[F(f)](\phi(\alpha))=[\gamma(\phi(\alpha))]_{A}(f)$$whereas mapping $\alpha$ along the upper functions of (3) gives $$[\phi_{A}\circ(-\circ h_{f})](\alpha)=\phi_{A}(\alpha\circ h_{f})=(\alpha\circ h_{f})_{A}(\text{id}_{A})=[\alpha_{A}\circ (h_{f})_{A}](\text{id}_{A})=\alpha_{A}(f\circ \text{id}_{A})=\alpha_{A}(f).$$Commutativity of (2) implies that these two expressions are the same, so (3) commutes. To show that $\phi$ is natural in $F$, suppose $\nu:F\Rightarrow G$. Define a function $\phi_{G}:\mathsf{Set}^\mathsf{C}(h_{X},G)\to G(X)$ similarly to $\phi$ as $$\phi_{G}(\alpha)=\alpha_{X}(\text{id}_{X}).$$We need to show that the diagram (4)
 
 ```tikz
 \usepackage{amsmath, amssymb, amsfonts, tikz-cd}

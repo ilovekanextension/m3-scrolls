@@ -1,4 +1,4 @@
-**Theorem**.
+**Theorem.**
 
 **Proof**.
 

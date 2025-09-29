@@ -110,15 +110,47 @@ The **underlying simple graph** of $G$ is obtained by deleting all of the loops 
 
 An **induced subgraph** of $G$ is as subgraph of $G$ obtained by vertex deletion only. If $X$ is the set of deleted vertices, the subgraph is denoted as $G - X$. Further, if $Y = V \setminus X$,  then $G[Y]$ is the **subgraph of $G$ induced by $Y$**.
 
-edge induced subgraph
+If $S$ is a set of edges in $G$, then $G[S]$ is an **edge-induced subgraph** of $G$, that is a subgraph of $G$ whose edge set is $S$ and vertex set consists of all ends of the edges in $S$.
 
-weighted graph
+A **weighted graph** is a graph $G$ equipped with a function $w : E \to \mathbb{R}$ which assigns each edge to a **weight**. The value $w(e)$ is called the weight of $e$. If $F$ is a subgraph of $G$, then $w(F)$ is the weight of $F$ defined by $\sum_{e \in E(F)} w(e)$.
 
-$E[X, Y]$ 
+If $X$ and $Y$ are sets of vertices, then $E[X, Y]$ is the set of edges in $G$ with one end in $X$ and the other end in $Y$. If $Y = V \setminus X$, then $E[X, Y]$ is called the **edge cut** of $G$ associated with $X$, or the **coboundary** of $X$, denoted by $\partial(X)$.
 
+An edge cut $\partial(v)$ associated with a single vertex $v$ is a **trivial edge cut**, which is simply the set of all links incident with $v$.
 
+A **bond** of a graph is a minimal nonempty edge cut.
 
+A **walk** in a graph $G$ is a sequence $W = v_0 e_1 v_1 \dots v_{l-1}e_lv_l$, whose terms are alternately vertices and edges of $G$ (not neccessarily distinct) such that $v_{i-1}$ and $v_i$ are the ends of $e_i$. If $v_0 = x$ and $v_l = y$, we say that $W$ **connects** $x$ to $y$, and $W$ is an **$xy$-walk**. The vertices $x$ and $y$ are called the **ends** of the walk, $x$ being the **initial vertex** and $y$ **terminal vertex**, the vertices $v_1, v_2, \dots, v_{l-1}$ are its **internal vertices**. The integer $l$ is the **length** of the walk.
 
+An **$x$-walk** is a walk with initial vertex $x$.
+
+If $u$ and $v$ are two vertices of a walk $W$, where $u$ precedes $v$ on $W$, the subsequence of $W$ starting with $u$ and ending with $v$ is denoted by $uWv$ and called the **segment** of $W$ from $u$ to $v$.
+
+In a simple graph a walk is determined by its vertices.
+
+A walk in a graph is **closed** if its initial and terminal vertices are identical, and it is a **trail** if all its edge terms are distinct. 
+
+A **path** can be seen as walks whose vertices and edges are distinct.
+
+A closed trail of positive length whose initial and internal vertices are distinct is the sequence of vertices and edges of a cycle.
+
+The length of the shortest $xy$-path is the **distance** between $x$ and $y$ denoted by $d_G(x, y)$. If there is no path between $x$ and $y$ we set $d_G(x, y) = \infty$.
+
+If $X$ and $Y$ are sets of vertices, then an $(X, Y)$-**path** is a path which starts at a vertex of $X$, ends at a vertex of $Y$, and whose internal vertices belong to neither $X$ nor $Y$.
+
+A **cut edge** of $G$ is an edge $e$ such that $c(G \setminus e) = c(G) + 1$. Cut edges are also bonds of size one. Another characterization, $e$ is a cut edge iff $e$ belongs to no cycle.
+
+A **tree** is an acyclic connected graph.
+
+A **forest** is an acyclic graph.
+
+A **leaf** of a tree is a vertex with degree one.
+
+A **subtree** is a subgraph which is a tree.
+
+A **spanning tree** is a spanning subgraph which is a tree.
+
+The complement $E \setminus T$ of a spanning tree $T$ is called a **cotree** denoted by $\bar{T}$.
 
 
 

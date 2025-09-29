@@ -16,7 +16,6 @@ Start navigating through the notes from the [[Homepage]].
 	- Definition: [[Locally Small Category]]
 	- Definition: [[Opposite Category]]
 	- Theorem: [[Involution Property on Category Opposites]]
-	- (Meta-)Theorem: [[Principle of Duality]]
 2. Monomorphisms and Epimorphisms
 	- Definition: [[Monomorphism]]
 	- Theorem: [[Compositions of Monomorphisms as Monomorphisms]]
@@ -87,8 +86,8 @@ Start navigating through the notes from the [[Homepage]].
 	- Definition: [[Yoneda Embedding]]
 		- Theorem: [[Yoneda Embeddings as Functors]]
 	- Theorem: [[Fullness and Faithfulness of Yoneda Embeddings]]
+	- Theorem: [[Natural Transformations Induced From Isomorphisms as Natural Isomorphisms]]
 	- Definition: [[Representable Functor]]
-	- Theorem: [[Induced Natural Transformations From Isomorphisms as Natural Isomorphisms]]
 	- Theorem: [[Uniqueness of Representing Objects]]
 	- Definition: [[Universal Property]]
 6. Examples of Small Limits and Colimits

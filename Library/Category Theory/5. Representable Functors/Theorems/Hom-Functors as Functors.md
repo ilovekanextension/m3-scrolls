@@ -1,33 +1,50 @@
-**Theorem.** Let $\mathsf{C}$ be a locally small category. Suppose $x$ is an object in $\mathsf{C}$. Then, the map $H$ that assigns
-- to each object $a$ in $\mathsf{C}$ the set $\mathsf{C}(x,a)$ and
-- to each morphism $f:a\to b$ in $\mathsf{C}$ the post-composition function $f\circ -:\mathsf{C}(x,a)\to \mathsf{C}(x,b)$
+**Theorem.** Let $\mathsf{C}$ be a locally small category. Suppose $X$ is an object in $\mathsf{C}$. Then, the map $H$ that assigns
+- to each object $A$ in $\mathsf{C}$ the set $\mathsf{C}(X,A)$ and
+- to each morphism $f:A\to B$ in $\mathsf{C}$ the post-composition function $f\circ -:\mathsf{C}(X,A)\to \mathsf{C}(X,B)$
 
 is a functor from $\mathsf{C}$ to $\mathsf{Set}$. Likewise, the map $H$ that assigns
-- to each object $a$ in $\mathsf{C}$ the set $\mathsf{C}(a,x)$ and
-- to each morphism $f:a\to b$ in $\mathsf{C}$ the pre-composition function $-\circ f:\mathsf{C}(b,x)\to \mathsf{C}(a,x)$
+- to each object $A$ in $\mathsf{C}$ the set $\mathsf{C}(A,X)$ and
+- to each morphism $f:A\to B$ in $\mathsf{C}$ the pre-composition function $-\circ f:\mathsf{C}(B,X)\to \mathsf{C}(A,X)$
 
 is a functor from $\mathsf{C}^\text{op}$ to $\mathsf{Set}$.
 
-**Proof of First Statement.**
-- **Preservation of Identities.** Suppose $a$ is an object in $\mathsf{C}$. For all $s:x\to a$ we have  $$\begin{align}
-H(\text{id}_{a})(s) & =\text{id}_{a}\circ s \\
+**Proof of First Statement.** First suppose $A$ is an object in $\mathsf{C}$. For all $s:X\to A$ we have
+$$\begin{align}
+[H(\text{id}_{A})](s) & =\text{id}_{A}\circ s \\
  & =s \\
- & =\text{id}_{H(a)}(s),
-\end{align}$$so by [[Extensionality of Functions]] $H(\text{id}_{a})=\text{id}_{H(a)}$.
-- **Preservation of Composition.** Suppose $f:a\to b$ and $g:b\to c$ are morphisms in $\mathsf{C}$. By [[Evaluations of Composite Functions]], for all $s:x\to a$ we have  $$\begin{align}
-H(g\circ f)(s) & =(g\circ f)\circ s \\
+ & =\text{id}_{H(A)}(s),
+\end{align}$$
+so by [[Extensionality of Functions]] $H(\text{id}_{A})=\text{id}_{H(A)}$.
+
+Next suppose $f:A\to B$ and $g:B\to C$ are morphisms in $\mathsf{C}$. By [[Evaluations of Composite Functions]], for all $s:X\to A$ we have  $$\begin{align}
+[H(g\circ f)](s) & =(g\circ f)\circ s \\
  & =g\circ (f\circ s) \\
- & =H(g)(f\circ s) \\
- & =H(g)(H(f)(s)) \\
- & =H(g)\circ H(f)(s),
+ & =[H(g)](f\circ s) \\
+ & =[H(g)]([H(f)](s)) \\
+ & =[H(g)\circ H(f)](s),
 \end{align}$$so by [[Extensionality of Functions]] $H(g\circ f)=H(g)\circ H(f)$. $\blacksquare$
 
-**Proof of Second Statement.** This follows by applying [[Principle of Duality]] on the first statement. $\blacksquare$
+**Proof of Second Statement.** First suppose $A$ is an object in $\mathsf{C}$. For all $s:A\to X$ we have
+$$\begin{align}
+[H(\text{id}_{A})](s) & =s\circ\text{id}_{A} \\
+ & =s \\
+ & =\text{id}_{H(A)}(s),
+\end{align}$$
+so by [[Extensionality of Functions]] $H(\text{id}_{A})=\text{id}_{H(A)}$.
+
+Next suppose $f:A\to B$ and $g:B\to C$ are morphisms in $\mathsf{C}$. By [[Evaluations of Composite Functions]], for all $s:C\to X$ we have  $$\begin{align}
+[H(g\circ f)](s) & =s\circ(g\circ f) \\
+ & =(s\circ g)\circ f \\
+ & =[H(f)](s\circ g) \\
+ & =[H(f)]([H(g)](s)) \\
+ & =[H(f)\circ H(g)](s),
+\end{align}$$so by [[Extensionality of Functions]] $H(g\circ f)=H(f)\circ H(g)$. $\blacksquare$
 
 ***
 Definitions used:
 - [[Category]]
 - [[Locally Small Category]]
+- [[Opposite Category]]
 - [[Functor]]
 - [[Covariant and Contravariant Functor]]
 - [[Category of Sets]]
@@ -35,6 +52,5 @@ Definitions used:
 - [[Composition of Functions]]
 
 Theorems used:
-- [[Principle of Duality]]
 - [[Extensionality of Functions]]
 - [[Evaluations of Composite Functions]]

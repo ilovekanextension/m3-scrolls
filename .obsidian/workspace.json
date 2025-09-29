@@ -38,65 +38,8 @@
               "icon": "lucide-file",
               "title": "Task Manager"
             }
-          },
-          {
-            "id": "a46ae566cf2ef258",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Library/Category Theory/6. Examples of Small Limits and Colimits/Definitions/Categorical Pullback.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Categorical Pullback"
-            }
-          },
-          {
-            "id": "b97bea27582efba2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "306aea94d2cdc8c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Library/Category Theory/6. Examples of Small Limits and Colimits/Definitions/Categorical Product.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Categorical Product"
-            }
-          },
-          {
-            "id": "d293db31067700b1",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".stfolder/syncthing-folder-27323f.txt",
-                "bFile": ".stfolder/syncthing-folder-27323f.txt",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: syncthing-folder-27323f.txt"
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Library/Ring Theory/6. Primes and Irreducibles/Definitions/Greatest Common Divisor.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Greatest Common Divisor"
+              "title": "Backlinks for Homepage"
             }
           },
           {
@@ -188,12 +131,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from Homepage"
             }
           },
           {
@@ -212,31 +155,6 @@
             }
           },
           {
-            "id": "f874579dc9df32b7",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Library/Category Theory/Natural Transformations Between Functors/Theorems/Criterion of Equivalence Functors.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Criterion of Equivalence Functors"
-            }
-          },
-          {
-            "id": "68985b142db0b1da",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
-            }
-          },
-          {
             "id": "7b512c0cfe4e683f",
             "type": "leaf",
             "state": {
@@ -245,9 +163,24 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "73ed66f1222cf5cf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Library/Category Theory/4. Natural Transformations Between Functors/Theorems/Vertical Compositions of Natural Transformations as Natural Transformations.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Vertical Compositions of Natural Transformations as Natural Transformations"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -263,37 +196,39 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "d293db31067700b1",
+  "active": "7b512c0cfe4e683f",
   "lastOpenFiles": [
-    "Misc/Templates/Theorem.md",
-    "Misc/Templates/Definition.md",
-    "Library/Category Theory/6. Examples of Small Limits and Colimits/Theorems/Uniqueness of Categorical Pullbacks.md",
-    "Library/Category Theory/4. Natural Transformations Between Functors/Theorems/Horizontal Compositions of Natural Transformations as Natural Transformations.md",
-    "Library/Equivalence Theory/1. Basic Properties of Equivalence Relations/Definitions/Equivalence Relation.md",
-    "Library/Group Theory/6. Monoids, Monoid Homomorphisms, and Submonoids/Definitions/Monoid.md",
-    "Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Theorems/Associativity of Natural Number Addition.md",
-    "Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Definitions/Addition on Natural Numbers.md",
     "Task Manager.md",
-    "Graph Theory Glossary.md",
-    "README.md",
     "Homepage.md",
-    "Library/Ring Theory/1. Basic Properties of Rings/Theorems/Multiplications with Ring Zeros.md",
-    "Library/Category Theory/6. Examples of Small Limits and Colimits/Definitions/Categorical Pullback.md",
-    "Library/Category Theory/6. Examples of Small Limits and Colimits/Definitions/Categorical Product.md",
-    "Untitled.md",
+    "Library/Category Theory/5. Representable Functors/Definitions/Universal Property.md",
+    "Library/Category Theory/1. Basic Properties of Categories/Theorems/Principle of Duality.md",
+    "Library/Category Theory/5. Representable Functors/Theorems/Uniqueness of Representing Objects.md",
+    "Library/Category Theory/5. Representable Functors/Theorems/Natural Transformations Induced From Isomorphisms as Natural Isomorphisms.md",
+    "Library/Category Theory/5. Representable Functors/Definitions/Representable Functor.md",
+    "README.md",
+    "Library/Category Theory/5. Representable Functors/Theorems/Fullness and Faithfulness of Yoneda Embeddings.md",
+    "Library/Category Theory/3. Functors Between Categories/Definitions/Faithful Functor.md",
+    "Library/Category Theory/5. Representable Functors/Definitions/Yoneda Embedding.md",
+    "Library/Category Theory/5. Representable Functors/Theorems/Yoneda Embeddings as Functors.md",
     "Misc/Templates/Node-Edge Diagram.md",
-    "Library/Ring Theory/6. Primes and Irreducibles/Definitions/Greatest Common Divisor.md",
-    "Library/Ring Theory/6. Primes and Irreducibles/Theorems/Criterion for Equality of Principal Ideals by Multiplications by Units.md",
-    "Library/Ring Theory/6. Primes and Irreducibles/Definitions/Unit.md",
-    "Library/Ring Theory/6. Primes and Irreducibles/Definitions/Zero-Divisor.md",
-    "Library/Ring Theory/6. Primes and Irreducibles/Theorems/Zeros as Multiples of All Objects in Commutative Rings.md",
-    "Library/Ring Theory/6. Primes and Irreducibles/Theorems/Ones as Divisors of All Objects in Commutative Rings.md",
-    "Library/Ring Theory/6. Primes and Irreducibles/Theorems/Divisibility Relations in Commutative Rings as Preorders.md",
-    "Library/Order Theory/5. Strict Orders and Preorders/Theorems/Inverses of Total Preorders as Total Preorders.md",
-    "Library/Order Theory/5. Strict Orders and Preorders/Definitions/Total Preorder.md",
+    "Library/Category Theory/5. Representable Functors/Theorems/Maps Into Pre- and Post-Composition Functions as Natural Transformations.md",
+    "Library/Category Theory/5. Representable Functors/Definitions/Natural Transformation Between Hom-Functors.md",
+    "Library/Category Theory/5. Representable Functors/Theorems/Yoneda Lemma.md",
+    "Library/Category Theory/5. Representable Functors/Theorems/Hom-Functors as Functors.md",
+    "Library/Category Theory/5. Representable Functors/Definitions/Hom-Functor.md",
+    "Library/Category Theory/4. Natural Transformations Between Functors/Theorems/Interchange Law for Natural Transformations.md",
+    "Library/Category Theory/4. Natural Transformations Between Functors/Theorems/Distributivity of Whiskerings Over Vertical Compositions.md",
+    "Library/Category Theory/4. Natural Transformations Between Functors/Theorems/Horizontal Composites as Vertical Compositions of Whiskerings.md",
+    "Library/Category Theory/4. Natural Transformations Between Functors/Definitions/Whiskering.md",
+    "Library/Category Theory/4. Natural Transformations Between Functors/Theorems/Equivalence of Components of Horizontal Composites.md",
+    "Library/Category Theory/4. Natural Transformations Between Functors/Theorems/Horizontal Compositions of Natural Transformations as Natural Transformations.md",
+    "Library/Category Theory/4. Natural Transformations Between Functors/Theorems/Vertical Compositions of Natural Transformations as Natural Transformations.md",
+    "Library/Category Theory/4. Natural Transformations Between Functors/Definitions/Horizontal Composition of Natural Transformations.md",
+    "New Text Document.txt",
     "Library/Order Theory/5. Strict Orders and Preorders/Theorems",
     "Library/Order Theory/5. Strict Orders and Preorders/Definitions",
     "Library/Order Theory/5. Strict Orders and Preorders",
@@ -303,7 +238,6 @@
     "Library/Ring Theory/6. Primes and Irreducibles/Definitions",
     "Library/Ring Theory/6. Primes and Irreducibles",
     "Untitled.base",
-    "Library/Real Analysis/1. Algebraic and Order Properties of The Real Numbers",
     "Untitled.canvas"
   ]
 }

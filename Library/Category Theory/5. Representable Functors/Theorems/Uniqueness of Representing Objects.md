@@ -1,4 +1,4 @@
-**Theorem.** Let $\mathsf{C}$ be a locally small category. Let $F:\mathsf{C}\to \mathsf{Set}$ and $G:\mathsf{C}\to \mathsf{Set}$, and suppose $\nu:F\Rightarrow G$ is a natural isomorphism. Let $(x,\alpha)$ be a representation of $F$, and let $(y,\beta)$ be a representation of $G$. Then, there is a unique isomorphism $f:y\to x$ such that the diagram
+**Theorem.** Let $\mathsf{C}$ be a locally small category. Let $F:\mathsf{C}\to \mathsf{Set}$ and $G:\mathsf{C}\to \mathsf{Set}$, and suppose $\nu:F\Rightarrow G$ is a natural isomorphism. Let $(X,\alpha)$ be a representation of $F$, and let $(Y,\beta)$ be a representation of $G$. Then, there is a unique isomorphism $f:Y\to X$ such that the diagram
 
 ```tikz
 \usepackage{amsmath, amssymb, amsfonts, tikz-cd}
@@ -6,8 +6,8 @@
 \tikzcdset{arrow style = tikz, diagrams = {>=stealth}}
 \begin{document}
 \begin{tikzcd}
-h^x & F \\
-h^y & G
+h^X & F \\
+h^Y & G
 \arrow["\alpha", from=1-1, to=1-2]
 \arrow["h^f", from=1-1, to=2-1]
 \arrow["\beta", from=2-1, to=2-2]
@@ -18,7 +18,7 @@ h^y & G
 
 commutes.
 
-Likewise, let $F:\mathsf{C}^\text{op}\to \mathsf{Set}$ and $G:\mathsf{C}^\text{op}\to \mathsf{Set}$, and suppose $\nu:F\Rightarrow G$ is a natural isomorphism. Let $(x,\alpha)$ be a representation of $F$, and let $(y,\beta)$ be a representation of $G$. Then, there is a unique isomorphism $f:x\to y$ such that the diagram
+Likewise, let $F:\mathsf{C}^\text{op}\to \mathsf{Set}$ and $G:\mathsf{C}^\text{op}\to \mathsf{Set}$, and suppose $\nu:F\Rightarrow G$ is a natural isomorphism. Let $(X,\alpha)$ be a representation of $F$, and let $(Y,\beta)$ be a representation of $G$. Then, there is a unique isomorphism $f:X\to Y$ such that the diagram
 
 ```tikz
 \usepackage{amsmath, amssymb, amsfonts, tikz-cd}
@@ -26,8 +26,8 @@ Likewise, let $F:\mathsf{C}^\text{op}\to \mathsf{Set}$ and $G:\mathsf{C}^\text{o
 \tikzcdset{arrow style = tikz, diagrams = {>=stealth}}
 \begin{document}
 \begin{tikzcd}
-h_x & F \\
-h_y & G
+h_X & F \\
+h_Y & G
 \arrow["\alpha", from=1-1, to=1-2]
 \arrow["h_f", from=1-1, to=2-1]
 \arrow["\beta", from=2-1, to=2-2]
@@ -38,9 +38,9 @@ h_y & G
 
 commutes.
 
-**Proof of First Statement.** By [[Isomorphism Relation as Equivalence Relation]], $\beta^{-1}\circ \nu\circ \alpha:h^x\Rightarrow h^y$ is a natural isomorphism. By [[Fullness and Faithfulness of Yoneda Embeddings]], $h^{\bullet}$ is full and faithful, so there is a unique morphism $f:y\to x$ such that $$\beta^{-1}\circ \nu\circ \alpha=h^f.$$By [[Induced Natural Transformations From Isomorphisms as Natural Isomorphisms]], since $h^f$ is an isomorphism, $f$ is also an isomorphism. By definition, $h^f$ makes the diagram posed in the statement commutes. $\blacksquare$
+**Proof of First Statement.** The natural transformation $\beta^{-1}\circ \nu\circ \alpha:h^X\Rightarrow h^Y$ is an isomorphism, so by [[Fullness and Faithfulness of Yoneda Embeddings]] and [[Natural Transformations Induced From Isomorphisms as Natural Isomorphisms]] there is a unique isomorphism $f:Y\to X$ such that $h^f=\beta^{-1}\circ \nu\circ \alpha$. We then have $\beta\circ h^f=\nu\circ \alpha$, so the diagram posed commutes. $\blacksquare$
 
-**Proof of Second Statement.** This follows by applying [[Principle of Duality]] on the first statement. $\blacksquare$
+**Proof of Second Statement.** The natural transformation $\beta^{-1}\circ \nu\circ \alpha:h^X\Rightarrow h^Y$ is an isomorphism, so by [[Fullness and Faithfulness of Yoneda Embeddings]] and [[Natural Transformations Induced From Isomorphisms as Natural Isomorphisms]] there is an isomorphism $f:X\to Y$ such that $h_{f}=\beta^{-1}\circ \nu\circ \alpha$. We then have $\beta\circ h_{f}=\nu\circ \alpha$, so the diagram posed commutes. $\blacksquare$
 ***
 Definitions used:
 - [[Category]]
@@ -53,7 +53,5 @@ Definitions used:
 - [[Category of Sets]]
 
 Theorems used:
-- [[Isomorphism Relation as Equivalence Relation]]
-- [[Principle of Duality]]
 - [[Fullness and Faithfulness of Yoneda Embeddings]]
-- [[Induced Natural Transformations From Isomorphisms as Natural Isomorphisms]]
+- [[Natural Transformations Induced From Isomorphisms as Natural Isomorphisms]]

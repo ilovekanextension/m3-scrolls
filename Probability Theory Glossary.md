@@ -3,7 +3,7 @@
 
 A $\sigma$-**field** over a set $\Omega$ is a set $\mathcal{F}$ of subsets of $\Omega$ satisfying the following properties.
 - $\Omega\in\mathcal{F}$ and $\varnothing\in\mathcal{F}$.
-- If $X\in\mathcal{F}$ and $Y\in\mathcal{F}$, then $X\cap Y\in\mathcal{F}$.
+- If $\{X_{n}\}$ is a sequence of elements of $\mathcal{F}$ then $\bigcap X_{i}\in\mathcal{F}$.
 - If $X\in\mathcal{F}$, then $X^c\in\mathcal{F}$.
 
 As a direct consequence, if $X\in\mathcal{F}$ and $Y\in\mathcal{F}$, then $X\cup Y\in\mathcal{F}$.

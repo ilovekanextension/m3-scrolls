@@ -87,10 +87,13 @@ Start navigating through the notes from the [[Homepage]].
 		- Theorem: [[Yoneda Embeddings as Functors]]
 	- Theorem: [[Fullness and Faithfulness of Yoneda Embeddings]]
 	- Theorem: [[Natural Transformations Induced From Isomorphisms as Natural Isomorphisms]]
+	- Definition: [[Category of Elements]]
+	- Theorem: [[Universal Objects of Category of Elements as Functor Representations]]
 	- Definition: [[Representable Functor]]
 	- Theorem: [[Uniqueness of Representing Objects]]
-	- Definition: [[Universal Property]]
-6. Examples of Small Limits and Colimits
+6. Limits and Colimits
+	- Definition: [[Cone and Cocone]]
+	- 
 	- Definition: [[Terminal Object]]
 		- Theorem: [[Uniqueness of Terminal Objects]]
 	- Theorem: [[Terminal Property of Objects Isomorphic to Terminal Objects]]

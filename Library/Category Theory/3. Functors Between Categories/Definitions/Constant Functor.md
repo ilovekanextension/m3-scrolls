@@ -2,7 +2,7 @@
 - to each object $A$ in $\mathsf{C}$ the object $X$ and
 - to each morphism $f:A\to B$ the morphism $\text{id}_{X}:X\to X$
 
-is a functor. We call it as the **constant functor** on $X$ and denote it (by abuse of language) in this case as $X:\mathsf{C}\to \mathsf{D}$.
+is a functor. We call it as the **constant functor** on $X$ and denote it as $\Delta_{X}:\mathsf{C}\to \mathsf{D}$.
 ***
 Definitions used:
 - [[Category]]

@@ -1,34 +1,34 @@
-**Definition.** Let $\mathsf{C}$ be a category. Let $a$ and $b$ be objects in $\mathsf{C}$. A **product** of $a$ with $b$ consists of
-- an object $p$,
-- a morphism $\pi_{1}:p\to a$, and
-- a morphism $\pi_{2}:p\to b$
+**Definition.** Let $\mathsf{C}$ be a category. Let $\mathsf{D}$ be a small discrete category. The limit of a functor $F:\mathsf{D}\to \mathsf{C}$ is called the **product** of $F$. It is denoted as $\prod F$. The leg of $\prod F$ at an object $X$ in $\mathsf{D}$ is denoted as $\pi_{X}$ and is called the **projection** at $X$.
 
-such that for all objects $x$ and morphisms $f:x\to a$ and $g:x\to b$, there is a unique morphism $k:x\to p$ such that the diagram
+Explicitly, the limit property of $\prod F$ states that
+- $\prod F$ is equipped with morphisms $\pi_{X}:\prod F\to X$ for each object $X$ in $\mathsf{D}$ and
+- for all objects $A$ in $\mathsf{C}$ equipped with morphisms $f_{X}:A\to X$ for each object $X$ in $\mathsf{D}$, there is a unique morphism $g:A\to \prod F$ such that $$f_{X}=\pi_{X}\circ g$$for all objects $X$ in $\mathsf{D}$.
+
+When $\mathsf{D}$ consists of only two objects, call $X_{A}$ and $X_{B}$, $\prod F$ is usually denoted as $$A\times B,$$where $A$ and $B$ are the images of $X_{A}$ and $X_{B}$ under $F$ respectively. The projection morphisms are denoted more specifically as $\pi_{A}:A\times B\to A$ and $\pi_{B}:A\times B\to B$. The limit property states that for all objects $P$ with morphisms $f_{A}:P\to A$ and $f_{B}:P\to B$ there is a unique morphism $g:P\to A\times B$ such that the diagram
 
 ```tikz
 \usepackage{amsmath, amssymb, amsfonts, tikz-cd}
 \usetikzlibrary{arrows, arrows.meta}
 \tikzcdset{arrow style = tikz, diagrams = {>=stealth}}
 \begin{document}
-\begin{tikzcd}
- & x & \\
-a & p & b
-\arrow["k" description, from=1-2, to=2-2]
-\arrow["\pi_1", from=2-2, to=2-1]
-\arrow["\pi_2", from=2-2, to=2-3, swap]
-\arrow["f", from=1-2, to=2-1, swap]
-\arrow["g", from=1-2, to=2-3]
+\begin{tikzcd}[row sep=large]
+ & P & \\
+A & A\times B & B
+\arrow["g" description, from=1-2, to=2-2]
+\arrow["f_A", from=1-2, to=2-1, swap]
+\arrow["f_B", from=1-2, to=2-3]
+\arrow["\pi_A", from=2-2, to=2-1]
+\arrow["\pi_B", from=2-2, to=2-3, swap]
 \end{tikzcd}
 \end{document}
 ```
 
 commutes.
-
-By [[Uniqueness of Categorical Products]], the product of $a$ with $b$, if it exists, is unique up to isomorphism. Therefore, we may speak of **the** product of $a$ with $b$. The product of $a$ with $b$ is denoted as $a\times b$. The morphisms $\pi_{1}:a\times b\to a$ and $\pi_{2}:a\times b\to b$ are called the **left projection** and **right projection** of $a\times b$ respectively.
 ***
 Definitions used:
 - [[Category]]
+- [[Small Category]]
+- [[Functor]]
 - [[Categorical Diagram]]
-
-Theorems used:
-- [[Uniqueness of Categorical Products]]
+- [[Categorical Limit and Colimit]]
+- [[Discrete Category]]

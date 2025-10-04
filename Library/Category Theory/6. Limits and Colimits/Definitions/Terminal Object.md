@@ -1,9 +1,9 @@
-**Definition.** Let $\mathsf{C}$ be a category. An object $t$ in $\mathsf{C}$ is said to be **terminal** if for all objects $a$ in $\mathsf{C}$ there is a unique morphism $f:a\to t$.
+**Definition.** Let $\mathsf{C}$ be a category. The limit of the empty functor $\mathsf{0}\to \mathsf{C}$ is called the **terminal object** of $\mathsf{C}$. It is denoted as $1_{\mathsf{C}}$ (or simply $1$ if $\mathsf{C}$ is known from context).
 
-By [[Uniqueness of Terminal Objects]], a terminal object in $\mathsf{C}$, if it exists, is unique up to isomorphism. Therefore, we can speak of **the** terminal object of a category. The terminal object of $\mathsf{C}$ is denoted as $1_{\mathsf{C}}$ (or simply $1$ if the context is known).
+Explicitly, the limit property of $1$ states that for all objects $A$ in $\mathsf{C}$ there is a unique morphism $f:A\to 1$.
 ***
 Definitions used:
 - [[Category]]
-
-Theorems used:
-- [[Uniqueness of Terminal Objects]]
+- [[Functor]]
+- [[Empty Functor]]
+- [[Categorical Limit and Colimit]]

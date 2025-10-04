@@ -9,12 +9,12 @@ That is, a cone over $F$ consists of an object $A$ in $\mathsf{C}$ and a collect
 \usetikzlibrary{arrows, arrows.meta}
 \tikzcdset{arrow style = tikz, diagrams = {>=stealth}}
 \begin{document}
-\begin{tikzcd}
-A & \\
-F(X) & F(Y)
-\arrow["\nu_X", from=1-1, to=2-1, swap]
-\arrow["F(f)", from=2-1, to=2-2, swap]
-\arrow["\nu_Y", from=1-1, to=2-2]
+\begin{tikzcd}[column sep=tiny]
+ & A & \\
+F(X) & & F(Y)
+\arrow["\nu_X", from=1-2, to=2-1, swap]
+\arrow["F(f)", from=2-1, to=2-3, swap]
+\arrow["\nu_Y", from=1-2, to=2-3]
 \end{tikzcd}
 \end{document}
 ```
@@ -32,12 +32,12 @@ That is, a cocone over $F$ consists of an object $A$ in $\mathsf{C}$ collection 
 \usetikzlibrary{arrows, arrows.meta}
 \tikzcdset{arrow style = tikz, diagrams = {>=stealth}}
 \begin{document}
-\begin{tikzcd}
-F(X) & F(Y) \\
-A &
-\arrow["F(f)", from=1-1, to=1-2]
-\arrow["\sigma_X", from=1-1, to=2-1, swap]
-\arrow["\sigma_Y", from=1-2, to=2-1]
+\begin{tikzcd}[column sep=tiny]
+F(X) & & F(Y) \\
+ & A &
+\arrow["F(f)", from=1-1, to=1-3]
+\arrow["\sigma_X", from=1-1, to=2-2, swap]
+\arrow["\sigma_Y", from=1-3, to=2-2]
 \end{tikzcd}
 \end{document}
 ```
@@ -48,6 +48,7 @@ If $\mathsf{I}$ is small, then the collection of cones and cocones over $F$ form
 ***
 Definitions used;
 - [[Category]]
+- [[Small Category]]
 - [[Functor]]
 - [[Categorical Diagram]]
 - [[Constant Functor]]

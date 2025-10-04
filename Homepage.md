@@ -93,15 +93,18 @@ Start navigating through the notes from the [[Homepage]].
 	- Theorem: [[Uniqueness of Representing Objects]]
 6. Limits and Colimits
 	- Definition: [[Cone and Cocone]]
-	- 
+	- Definition: [[Cone Functor and Cocone Functor]]
+		- Theorem: [[Cone Functors and Cocone Functors as Functors]]
+			- Theorem: [[Change of Legs of Cones and Cocones by Compositions with Morphisms]]
+	- Definition: [[Categorical Limit and Colimit]]
+		- Theorem: [[Uniqueness of Categorical Limits and Colimits]]
+	- Definition: [[Empty Category]]
+	- Definition: [[Empty Functor]]
 	- Definition: [[Terminal Object]]
-		- Theorem: [[Uniqueness of Terminal Objects]]
-	- Theorem: [[Terminal Property of Objects Isomorphic to Terminal Objects]]
-	- Theorem: [[Terminal Objects as Representations of Functors Into Singletons]]
+	- Definition: [[Initial Object]]
+	- Definition: [[Discrete Category]]
 	- Definition: [[Categorical Product]]
-		- Theorem: [[Uniqueness of Categorical Products]]
-	- Theorem: [[Commutativity of Categorical Products]]
-	- Definition: 
+	- Definition: [[Categorical Coproduct]]
 7. (add here)
 
 ## Equivalence Theory

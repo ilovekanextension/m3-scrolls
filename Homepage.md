@@ -105,6 +105,12 @@ Start navigating through the notes from the [[Homepage]].
 	- Definition: [[Discrete Category]]
 	- Definition: [[Categorical Product]]
 	- Definition: [[Categorical Coproduct]]
+	- Definition: [[Parallel Category]]
+	- Definition: [[Categorical Equalizer]]
+	- Definition: [[Categorical Coequalizer]]
+	- Definition: [[Span Category]]
+	- Definition: [[Categorical Pullback]]
+	- Definition: [[Categorical Pushout]]
 7. (add here)
 
 ## Equivalence Theory

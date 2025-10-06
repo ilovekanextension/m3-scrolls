@@ -43,11 +43,11 @@ such that for all objects $A$ in $\mathsf{C}$ and cocones $(A,\sigma)$ in $\text
 \tikzcdset{arrow style = tikz, diagrams = {>=stealth}}
 \begin{document}
 \begin{tikzcd}
-C & \\
-A & F(X)
-\arrow["f", from=1-1, to=2-1, swap]
-\arrow["\sigma_X", from=2-1, to=2-2, swap]
-\arrow["\nu_X", from=1-1, to=2-2]
+F(X) & \\
+C & A
+\arrow["\nu_X", from=1-1, to=2-1, swap]
+\arrow["\sigma_X", from=1-1, to=2-2]
+\arrow["f", from=2-1, to=2-2, swap]
 \end{tikzcd}
 \end{document}
 ```

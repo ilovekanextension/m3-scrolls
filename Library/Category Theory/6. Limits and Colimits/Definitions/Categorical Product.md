@@ -1,4 +1,4 @@
-**Definition.** Let $\mathsf{C}$ be a category. Let $\mathsf{D}$ be a small discrete category. The limit of a functor $F:\mathsf{D}\to \mathsf{C}$ is called the **product** of $F$. It is denoted as $\prod F$. The leg of $\prod F$ at an object $X$ in $\mathsf{D}$ is denoted as $\pi_{X}$ and is called the **projection** at $X$.
+**Definition.** Let $\mathsf{C}$ be a category. Let $\mathsf{D}$ be a small discrete category. The limit of a functor $F:\mathsf{D}\to \mathsf{C}$, if it exists, is called the **product** of $F$. It is denoted as $\prod F$. The leg of $\prod F$ at an object $X$ in $\mathsf{D}$ is denoted as $\pi_{X}$ and is called the **projection** at $X$.
 
 Explicitly, the limit property of $\prod F$ states that
 - $\prod F$ is equipped with morphisms $\pi_{X}:\prod F\to X$ for each object $X$ in $\mathsf{D}$ and

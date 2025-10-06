@@ -1,6 +1,6 @@
-**Definition.** Let $\mathsf{C}$ be a category. Let $\mathsf{D}$ be a small discrete category. The colimit of a functor $F:\mathsf{D}\to \mathsf{C}$ is called the **coproduct** of $F$. It is denoted as $\coprod F$. The leg of $\coprod F$ at an object $X$ in $\mathsf{D}$ is denoted as $\iota_{X}$ and is called the **insertion** at $X$.
+**Definition.** Let $\mathsf{C}$ be a category. Let $\mathsf{D}$ be a small discrete category. The colimit of a functor $F:\mathsf{D}\to \mathsf{C}$, if it exists, is called the **coproduct** of $F$. It is denoted as $\coprod F$. The leg of $\coprod F$ at an object $X$ in $\mathsf{D}$ is denoted as $\iota_{X}$ and is called the **insertion** at $X$.
 
-Explicitly, the limit property of $\coprod F$ states that
+Explicitly, the colimit property of $\coprod F$ states that
 - $\coprod F$ is equipped with morphisms $\iota_{X}:X\to \coprod F$ for each object $X$ in $\mathsf{D}$ and
 - for all objects $A$ in $\mathsf{C}$ equipped with morphisms $f_{X}:X\to A$ for each object $X$ in $\mathsf{D}$, there is a unique morphism $g:\coprod F\to A$ such that $$f_{X}=g\circ \iota_{X}$$for all objects $X$ in $\mathsf{D}$.
 

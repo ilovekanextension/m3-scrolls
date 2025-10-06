@@ -21,11 +21,11 @@ F(X) & & F(Y)
 
 commutes. The object $A$ is called the **summit** of the cone, and the morphism $\nu_{X}$ is called the **leg** of the cone at $X$.
 
-A **cocone** $(A,\sigma)$ over $F$ with **summit** $A$ consists of
+A **cocone** $(A,\sigma)$ over $F$ consists of
 - an object $A$ in $\mathsf{C}$ and
 - a natural transformation $\sigma:F\Rightarrow \Delta_{A}$.
 
-That is, a cocone over $F$ consists of an object $A$ in $\mathsf{C}$ collection of morphisms $\sigma_{X}:F(X)\to A$ in $\mathsf{C}$ for each object $X$ in $\mathsf{I}$ such that for all morphisms $f:X\to Y$ in $\mathsf{I}$ the diagram
+That is, a cocone over $F$ consists of an object $A$ in $\mathsf{C}$ and a collection of morphisms $\sigma_{X}:F(X)\to A$ in $\mathsf{C}$ for each object $X$ in $\mathsf{I}$ such that for all morphisms $f:X\to Y$ in $\mathsf{I}$ the diagram
 
 ```tikz
 \usepackage{amsmath, amssymb, amsfonts, tikz-cd}

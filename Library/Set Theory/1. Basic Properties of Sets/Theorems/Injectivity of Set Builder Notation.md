@@ -1,10 +1,10 @@
-**Theorem.** Let $P$ and $Q$ be propositions. Suppose that $$\{x\mid P(x)\}=\{x\mid Q(x)\}.$$Then, for all objects $x$, we have $P(x)$ if and only if $Q(x)$.
+**Theorem.** Let $\varphi$ and $\theta$ be propositions. Suppose that $$\{x\mid \varphi(x)\}=\{x\mid \theta(x)\}.$$Then, for all objects $x$, $\varphi(x)$ if and only if $\theta(x)$.
 
 **Proof.** We have
 $$\begin{align}
-P(x) & \iff x\in\{x\mid P(x)\} \\
- & \iff x\in\{x\mid Q(x)\} \\
- & \iff Q(x). \blacksquare
+\varphi(x) & \iff x\in\{x\mid \varphi(x)\} \\
+ & \iff x\in\{x\mid \theta(x)\} \\
+ & \iff \theta(x).\blacksquare
 \end{align}$$
 ***
 Definitions used:

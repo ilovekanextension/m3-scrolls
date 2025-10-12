@@ -260,22 +260,39 @@ Start navigating through the notes from the [[Homepage]].
 	- Definition: [[Supremum]]
 	- Theorem: [[Duality of Infimum and Supremum]]
 	- Theorem: [[Greatest Objects as Suprema]]
+	- Definition: [[Bounded Subset]]
 5. Strict Orders and Preorders
-	- Definition: [[Strict Partial Order]]
-		- Theorem: [[Strict Partial Orders as Assymetric Orders]]
-	- Theorem: [[Inverses of Strict Partial Orders as Strict Partial Orders]]
+	- Definition: [[Strict Order]]
+		- Theorem: [[Strict Orders as Assymetric Orders]]
+	- Theorem: [[Inverses of Strict Orders as Strict Orders]]
 	- Definition: [[Strict Total Order]]
-		- Theorem: [[Exclusivity of Disjunction Criterion of Trichotomy Property on Strict Partial Orders]]
+		- Theorem: [[Exclusivity of Disjunction Criterion of Trichotomy Property on Strict Orders]]
 	- Theorem: [[Inverses of Strict Total Orders as Strict Total Orders]]
+	- Theorem: [[Induced Orders From Strict Orders]]
 	- Definition: [[Preorder]]
 	- Theorem: [[Inverses of Preorders as Preorders]]
 	- Definition: [[Total Preorder]]
 	- Theorem: [[Inverses of Total Preorders as Total Preorders]]
-6. (add here)
+6. Posets and Monotone Functions
+	- Definition: [[Poset]]
+	- Definition: [[Toset]]
+	- Definition: [[Monotone Function]]
+	- Definition: [[Category of Posets]]
+		- Definition: [[Identity Monotone Function]]
+			- Theorem: [[Identity Functions as Monotone Functions]]
+		- Definition: [[Composition of Monotone Functions]]
+			- Theorem: [[Compositions of Monotone Functions as Monotone Functions]]
+	- Definition: [[Order Isomorphism]]
+		- Theorem: [[Order Isomorphisms as Monotone Bijective Functions With Monotone Inverses]]
+7. (add here)
 
 ## Real Analysis
-1. Algebraic and Order Properties of The Real Numbers
-	- 
+1. Basic Properties of The Real Numbers
+	- Definition: [[Real Numbers]]
+	- Definition: [[Interval of Real Numbers]]
+	- Definition: [[Sign Terms for Real Numbers]]
+	- Theorem: [[Closure and Trichotomy Properties of Positive Real Numbers]]
+	- Theorem: [[Positivity of Squares of Real Numbers]]
 2. (add here)
 
 ## Ring Theory
@@ -357,6 +374,8 @@ Start navigating through the notes from the [[Homepage]].
 		- Theorem: [[Uniqueness of Empty Sets]]
 	- Theorem: [[Empty Set as Subset of Any Set]]
 	- Definition: [[Nonempty Set]]
+	- Definition: [[Singleton]]
+	- Definition: [[Doubleton]]
 	- Definition: [[Enumeration Notation]]
 	- Definition: [[Set Builder Notation]]
 	- Theorem: [[Injectivity of Set Builder Notation]]
@@ -378,7 +397,7 @@ Start navigating through the notes from the [[Homepage]].
 	- Definition: [[Power Set]]
 	- Theorem: [[Special Members of Power Sets]]
 	- Theorem: [[Power Set of Empty Set]]
-	- Theorem: [[Criterion for Singleton Sets as Members of Power Sets]]
+	- Theorem: [[Criterion for Singletons as Members of Power Sets]]
 	- Theorem: [[Monotonicity of Power Set Operation]]
 	- Definition: [[Union of Family of Sets]]
 	- Theorem: [[Unions of Families of Sets as Generalization of Binary Unions]]
@@ -433,7 +452,7 @@ Start navigating through the notes from the [[Homepage]].
 	- Definition: [[Closed Subset]]
 	- Definition: [[Closure of Subset]]
 	- Theorem: [[Closures of Closed Subsets]]
-	- Theorem: [[Existence of Closures Under Functions]]
+	- Theorem: [[Existence of Closures of Subsets]]
 	- Definition: [[Image of Subset]]
 	- Definition: [[Preimage of Subset]]
 		- Theorem: [[Images Under Inverse Functions as Preimages]]

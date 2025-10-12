@@ -2,14 +2,14 @@
 
 **Proof of Forward Implication.** Suppose $A\subseteq B$. Suppose $x\in\mathcal{P}(A)$. Then, $x\subseteq A$. Since $A\subseteq B$, by [[Subset Relation as Partial Order]] we have $x\subseteq B$, so $x\in\mathcal{P}(B)$. $\blacksquare$
 
-**Proof of Backward Implication.** Suppose $\mathcal{P}(A)\subseteq \mathcal{P}(B)$. Suppose $x\in A$. Then, by [[Criterion for Singleton Sets as Members of Power Sets]], $\{x\}\subseteq A$, so $\{x\}\in\mathcal{P}(A)$. Since $\mathcal{P}(A)\subseteq \mathcal{P}(B)$, we have $\{x\}\in\mathcal{P}(B)$, so $\{x\}\subseteq B$. Since $x\in\{x\}$, we have $x\in B$. $\blacksquare$
+**Proof of Backward Implication.** Suppose $\mathcal{P}(A)\subseteq \mathcal{P}(B)$. Suppose $x\in A$. Then, by [[Criterion for Singletons as Members of Power Sets]], $\{x\}\subseteq A$, so $\{x\}\in\mathcal{P}(A)$. Since $\mathcal{P}(A)\subseteq \mathcal{P}(B)$, we have $\{x\}\in\mathcal{P}(B)$, so $\{x\}\subseteq B$. Since $x\in\{x\}$, we have $x\in B$. $\blacksquare$
 ***
 Definitions used:
 - [[Set]]
 - [[Subset]]
-- [[Enumeration Notation]]
+- [[Singleton]]
 - [[Power Set]]
 
 Theorems used:
 - [[Subset Relation as Partial Order]]
-- [[Criterion for Singleton Sets as Members of Power Sets]]
+- [[Criterion for Singletons as Members of Power Sets]]

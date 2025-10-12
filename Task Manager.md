@@ -1,7 +1,10 @@
 - [x] Create a note for category of groups in Library - Group Theory
 - [x] Reprove dual theorems in Library - Category Theory without Principle of Duality (since it's confusing anyways)
 - [ ] Add theorems about unions and intersections of images and preimages in Library - Set Theory
+- [x] Add a note about closures under operations
 - [ ] Create a library for number theory
+- [ ] Construct the integers from the real numbers as multiples of 1 and prove that the well-ordering principle follows from completeness
+- [ ] Change Enumeration Notation in Library - Set Theory to instead describe singleton and doubleton sets, then reconstruct set enumeration notation after defining natural numbers
 - [x] belajar KOALA biar menang
 - [x] Change symbols for objects of categories in Library - Category Theory to be uppercase instead of lowercase letters
 - [x] Redo Library - Category Theory - Examples of Small Limits and Colimits by first introducing limits and colimits in general

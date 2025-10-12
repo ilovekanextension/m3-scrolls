@@ -1,8 +1,8 @@
-**Theorem.** Let $A$ be a set. Let $\prec$ be a preorder on $A$. Let $\succ$ be the inverse of $\prec$. Then, $\succ$ is also a preorder on $A$.
+**Theorem.** Let $A$ be a set. Let $\leq$ be a preorder on $A$. Let $\geq$ be the inverse of $\leq$. Then, $\geq$ is also a preorder on $A$.
 
 **Proof.**
-- **Reflexivity.** Suppose $a\in A$. Since $\prec$ is a partial order, it is reflexive, so $a\prec a$. Therefore, $a\succ a$.
-- **Transitivity.** Suppose $a,b,c\in A$, and suppose that $a\succ b$ and $b\succ c$. Then, $b\prec a$ and $c\prec b$. Since $\prec$ is a partial order, it is transitive, so $c\prec a$, which means $a\succ c$. $\blacksquare$
+- **Reflexivity.** Suppose $a\in A$. Since $\leq$ is a partial order, it is reflexive, so $a\leq a$. Therefore, $a\geq a$.
+- **Transitivity.** Suppose $a,b,c\in A$, and suppose that $a\geq b$ and $b\geq c$. Then, $b\leq a$ and $c\leq b$. Since $\leq$ is a partial order, it is transitive, so $c\leq a$, which means $a\geq c$. $\blacksquare$
 
 ***
 Definitions used:

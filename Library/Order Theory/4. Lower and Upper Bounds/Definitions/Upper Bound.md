@@ -1,4 +1,6 @@
 **Definition.** Let $A$ be a set. Let $\leq$ be a partial order on $A$. Suppose $B\subseteq A$. An object $a\in A$ is called an **upper bound** for $B$ (**under** $\leq$) if for all $b\in B$ we have $b\leq a$.
+
+If a subset $B$ of $A$ has an upper bound, we say that $B$ is **bounded above**.
 ***
 Definitions used:
 - [[Set]]

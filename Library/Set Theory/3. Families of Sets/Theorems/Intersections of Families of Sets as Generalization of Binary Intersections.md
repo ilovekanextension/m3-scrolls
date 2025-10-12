@@ -8,6 +8,6 @@ x\in\bigcap \{A,B\} & \iff \forall X\in\{A,B\} \ (x\in X) \\
 ***
 Definitions used:
 - [[Set]]
-- [[Enumeration Notation]]
+- [[Doubleton]]
 - [[Intersection of Two Sets]]
 - [[Intersection of Family of Sets]]

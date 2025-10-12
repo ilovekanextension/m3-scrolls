@@ -8,6 +8,6 @@ x\in\bigcup\{A,B\} & \iff \exists X\in\{A,B\} \ (x\in X) \\
 ***
 Definitions used:
 - [[Set]]
-- [[Enumeration Notation]]
+- [[Doubleton]]
 - [[Union of Two Sets]]
 - [[Union of Family of Sets]]

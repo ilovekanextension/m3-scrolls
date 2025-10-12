@@ -1,8 +1,8 @@
-**Theorem.** Let $A$ be a set. Let $\prec$ be a total preorder on $A$. Let $\succ$ be the inverse of $\prec$. Then, $\succ$ is also a total preorder on $A$.
+**Theorem.** Let $A$ be a set. Let $\leq$ be a total preorder on $A$. Let $\geq$ be the inverse of $\leq$. Then, $\geq$ is also a total preorder on $A$.
 
-**Proof.** Since $\prec$ is a total preorder, it is a preorder, so by [[Inverses of Preorders as Preorders]] $\succ$ is also a preorder. We will show that $\succ$ is connected.
+**Proof.** Since $\leq$ is a total preorder, it is a preorder, so by [[Inverses of Preorders as Preorders]] $\geq$ is also a preorder. We will show that $\geq$ is connected.
 
-Suppose $a,b\in A$. Since $\prec$ is a total preorder, $a\prec b$ or $b\prec a$. Therefore, $b\succ a$ or $a\succ b$. $\blacksquare$
+Suppose $a,b\in A$. Since $\leq$ is a total preorder, $a\leq b$ or $b\leq a$. Therefore, $b\geq a$ or $a\geq b$. $\blacksquare$
 ***
 Definitions used:
 - [[Preorder]]

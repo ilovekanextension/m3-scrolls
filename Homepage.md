@@ -220,7 +220,7 @@ Start navigating through the notes from the [[Homepage]].
 
 ## Number Theory
 1. Well-Ordering and Induction
-	- Definition: [[Ring of Integers]]
+	- Definition: [[Successor Function]]
 	- Definition: [[Less-Than-Or-Equal-To (LE) Order on Integers]]
 	- Theorem: [[Reflexivity of LE Order on Integers]]
 	- Theorem: [[Transitivity of LE Order on Integers]]
@@ -289,10 +289,16 @@ Start navigating through the notes from the [[Homepage]].
 ## Real Analysis
 1. Basic Properties of The Real Numbers
 	- Definition: [[Real Numbers]]
+	- Theorem: [[Basic Order Properties for Total Order on Real Numbers]]
 	- Definition: [[Interval of Real Numbers]]
 	- Definition: [[Sign Terms for Real Numbers]]
-	- Theorem: [[Closure and Trichotomy Properties of Positive Real Numbers]]
+	- Theorem: [[Closure and Trichotomy Properties of Positive and Nonnegative Real Numbers]]
 	- Theorem: [[Positivity of Squares of Real Numbers]]
+	- Theorem: [[Orders Between Additive and Multiplicative Inverses]]
+	- Theorem: [[Preservation of Strict Total Orders Under Addition and Multiplication]]
+	- Theorem: [[Preservation of Total Orders Under Addition and Multiplication]]
+	- Theorem: [[Bounds for Subsets Under Arithmetic Operations]]
+	- Theorem: [[Existence of Infima of Bounded-Below Subsets of Real Numbers]]
 2. (add here)
 
 ## Ring Theory
@@ -350,7 +356,9 @@ Start navigating through the notes from the [[Homepage]].
 	- Theorem: [[Multiplicative Inverses of Multiplicative Identities in Fields]]
 	- Theorem: [[Involution Property on Multiplicative Inverses in Fields]]
 	- Theorem: [[Multiplicative Inverses of Multiplications in Fields]]
+	- Theorem: [[Multiplicative Inverses of Additive Inverses]]
 	- Definition: [[Division Notation on Fields]]
+	- Definition: [[Arithmetic Operations on Subsets of Ring]]
 	- Definition: [[Maximal Ideal]]
 	- Theorem: [[Maximal Ideals as Prime Ideals]]
 	- Theorem: [[Criterion for Maximal Ideals]]

@@ -3,7 +3,7 @@
 - objects $0\in \mathbb{R}$ and $1\in \mathbb{R}$ called **zero** and **one** respectively,
 - two operations $+:\mathbb{R}\times \mathbb{R}\to \mathbb{R}$ and $\cdot:\mathbb{R}\times \mathbb{R}\to \mathbb{R}$ called **addition** and **multiplication** respectively,
 - a function $-(-):\mathbb{R}\times \mathbb{R}\to \mathbb{R}$ mapping a real number to its **additive inverse**, and
-- a strict total order $<$ on $\mathbb{R}$ inducing a total order $\leq$ (see [[Induced Orders From Strict Orders]]) on $\mathbb{R}$
+- a strict total order $<$ on $\mathbb{R}$ inducing a total order $\leq$ on $\mathbb{R}$ defined as $$a\leq b\iff(a<b\vee a=b)$$(see [[Induced Orders From Strict Orders]])
 
 satisfying the following properties.
 1. **Algebraic Property.** The structure $(\mathbb{R},+,\cdot,0,1,-(-))$ is a field.

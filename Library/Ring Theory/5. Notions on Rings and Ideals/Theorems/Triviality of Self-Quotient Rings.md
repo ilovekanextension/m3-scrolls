@@ -20,7 +20,7 @@ Definitions used:
 - [[Ideal]]
 - [[Quotient Ring]]
 - [[Left and Right Coset]]
-- [[Enumeration Notation]]
+- [[Set Builder Notation]]
 
 Theorems used:
 - [[Triviality of Rings with Identical Zeros and Ones]]

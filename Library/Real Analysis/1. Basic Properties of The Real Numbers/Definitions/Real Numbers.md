@@ -17,6 +17,7 @@ The notation $a<x<b$ means $a<x\wedge x<b$. Similar notations also have similar 
 ***
 Definitions used:
 - [[Set]]
+- [[Nonempty Set]]
 - [[Function]]
 - [[Subtraction Notation on Rings]]
 - [[Field]]

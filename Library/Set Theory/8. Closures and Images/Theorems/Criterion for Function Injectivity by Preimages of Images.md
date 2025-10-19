@@ -11,6 +11,7 @@
 ***
 Definitions used:
 - [[Set]]
+- [[Singleton]]
 - [[Function]]
 - [[Injective Function]]
 - [[Image of Subset]]

@@ -24,7 +24,7 @@ Definitions used:
 - [[Ideal]]
 - [[Principal Ideal]]
 - [[Subgroup]]
-- [[Enumeration Notation]]
+- [[Singleton]]
 
 Theorems used:
 - [[Multiplications with Ring Zeros]]

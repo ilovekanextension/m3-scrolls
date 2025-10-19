@@ -221,9 +221,16 @@ Start navigating through the notes from the [[Homepage]].
 ## Number Theory
 1. Well-Ordering and Induction
 	- Definition: [[Successor Function]]
-	- Definition: [[Less-Than-Or-Equal-To (LE) Order on Integers]]
-	- Theorem: [[Reflexivity of LE Order on Integers]]
-	- Theorem: [[Transitivity of LE Order on Integers]]
+	- Definition: [[Natural Numbers]]
+	- Theorem: [[Principle of Mathematical Induction]]
+	- Theorem: [[Zero as Smallest Natural Number]]
+	- Theorem: [[Zero as Minimal Natural Number]]
+	- Theorem: [[Natural Numbers as Closed Subset Under Addition and Multiplication]]
+	- Theorem: [[Normal Forms of Natural Numbers]]
+	- Theorem: [[Discreteness of Natural Numbers]]
+	- Theorem: [[Well-Ordering Principle]]
+	- Theorem: [[Principle of Complete Induction]]
+	- Theorem: [[Characterization of Orders on Natural Numbers]]
 2. Divisibility and The Division Algorithm
 	- Definition: [[Divisibility on Integers]]
 3. (add here)
@@ -253,13 +260,17 @@ Start navigating through the notes from the [[Homepage]].
 	- Theorem: [[Family Intersections and Unions as Smallest and Greatest Objects Under Subset Relation]]
 4. Lower and Upper Bounds
 	- Definition: [[Lower Bound]]
+	- Theorem: [[Subsets of Bounded-Below Subsets as Bounded-Below Subsets]]
 	- Definition: [[Infimum]]
 	- Theorem: [[Smallest Objects as Infima]]
+	- Theorem: [[Infima Contained in Subsets as Smallest Objects]]
 	- Definition: [[Upper Bound]]
+	- Theorem: [[Subsets of Bounded-Above Subsets as Bounded-Above Subsets]]
 	- Theorem: [[Duality of Lower and Upper Bounds]]
 	- Definition: [[Supremum]]
 	- Theorem: [[Duality of Infimum and Supremum]]
 	- Theorem: [[Greatest Objects as Suprema]]
+	- Theorem: [[Suprema Contained in Subsets as Greatest Objects]]
 	- Definition: [[Bounded Subset]]
 5. Strict Orders and Preorders
 	- Definition: [[Strict Order]]
@@ -384,7 +395,6 @@ Start navigating through the notes from the [[Homepage]].
 	- Definition: [[Nonempty Set]]
 	- Definition: [[Singleton]]
 	- Definition: [[Doubleton]]
-	- Definition: [[Enumeration Notation]]
 	- Definition: [[Set Builder Notation]]
 	- Theorem: [[Injectivity of Set Builder Notation]]
 2. Operations on Sets

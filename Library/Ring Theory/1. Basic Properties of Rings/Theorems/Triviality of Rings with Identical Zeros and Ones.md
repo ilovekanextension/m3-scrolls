@@ -2,14 +2,14 @@
 
 **Proof.** Suppose $a\in R$. By [[Multiplications with Ring Zeros]],
 $$\begin{align}
-a & =a\circ 1 \\
- & =a\circ 0 \\
+a & =a\cdot 1 \\
+ & =a\cdot 0 \\
  & =0.\blacksquare
 \end{align}$$
 ***
 Definitions used:
 - [[Ring]]
-- [[Enumeration Notation]]
+- [[Singleton]]
 
 Theorems used:
 - [[Multiplications with Ring Zeros]]

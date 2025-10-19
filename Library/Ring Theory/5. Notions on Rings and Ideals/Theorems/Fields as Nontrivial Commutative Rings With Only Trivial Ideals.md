@@ -12,6 +12,7 @@ Definitions used:
 - [[Ideal]]
 - [[Field]]
 - [[Principal Ideal]]
+- [[Singleton]]
 
 Theorems used:
 - [[Special Ideals as Principal Ideals]]

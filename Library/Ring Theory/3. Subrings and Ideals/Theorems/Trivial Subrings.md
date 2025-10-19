@@ -13,7 +13,7 @@ Definitions used:
 - [[Subring]]
 - [[Subgroup]]
 - [[Submonoid]]
-- [[Enumeration Notation]]
+- [[Singleton]]
 
 Theorems used:
 - [[Trivial Subgroups]]

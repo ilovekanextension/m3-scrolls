@@ -7,3 +7,6 @@ Trivial groups are clearly isomorphic to each other, so we may speak of **the** 
 ***
 Definitions used:
 - [[Group]]
+- [[Set]]
+- [[Singleton]]
+- [[Function]]

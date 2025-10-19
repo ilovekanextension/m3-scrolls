@@ -9,4 +9,4 @@
 Definitions used:
 - [[Monoid]]
 - [[Submonoid]]
-- [[Enumeration Notation]]
+- [[Singleton]]

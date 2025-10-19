@@ -12,6 +12,7 @@ Definitions used:
 - [[Supremum]]
 - [[Infimum]]
 - [[Arithmetic Operations on Subsets of Ring]]
+- [[Nonempty Set]]
 
 Theorems used:
 - [[Orders Between Additive and Multiplicative Inverses]]

@@ -9,7 +9,7 @@
 Definitions used:
 - [[Group]]
 - [[Subgroup]]
-- [[Enumeration Notation]]
+- [[Singleton]]
 
 Theorems used:
 - [[Inverses of Group Identities]]

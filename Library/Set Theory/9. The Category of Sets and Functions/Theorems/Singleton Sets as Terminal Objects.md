@@ -10,7 +10,7 @@ Suppose $a,b\in A$. We can construct functions $f:\{*\}\to A$ and $g:\{*\}\to A$
 ***
 Definitions used:
 - [[Set]]
-- [[Enumeration Notation]]
+- [[Singleton]]
 - [[Function]]
 
 Theorems used:

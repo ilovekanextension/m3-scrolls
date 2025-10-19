@@ -6,7 +6,7 @@ Definitions used:
 - [[Ring]]
 - [[Commutative Ring]]
 - [[Ideal]]
-- [[Enumeration Notation]]
+- [[Set Builder Notation]]
 
 Theorems used:
 - [[Principal Ideals as Ideals]]

@@ -11,7 +11,7 @@ Definitions used:
 - [[Ring]]
 - [[Commutative Ring]]
 - [[Ideal]]
-- [[Enumeration Notation]]
+- [[Set Builder Notation]]
 - [[Subgroup]]
 
 Theorems used:

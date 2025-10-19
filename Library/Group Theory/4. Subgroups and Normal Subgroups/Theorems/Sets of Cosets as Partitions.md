@@ -19,6 +19,7 @@ Definitions used:
 - [[Subgroup]]
 - [[Left and Right Coset]]
 - [[Partition of Set]]
+- [[Nonempty Set]]
 
 Theorems used:
 - [[Criterion for Equality of Cosets]]

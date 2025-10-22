@@ -4,8 +4,8 @@
 3. Suppose $m,n\in \mathbb{N}$, and suppose that $m<n+1$. Then, $m\leq n$.
 
 **Proof of First Statement.** For the sake of negation, assume that there is $n\in \mathbb{N}$ such that $0<n<1$. By [[Normal Forms of Natural Numbers]], $n=0$ or $n=k+1$ for some $k\in \mathbb{N}$. We proceed by cases; in each case we will show a contradiction.
-- **Case** $n=0$. This means $0<0$. However, by reflexivity $0=0$. This contradicts the fact that $<$ is trichotomous; exactly one of $0<0$, $0=0$, and $0>0$ must hold.
-- **Case** $\exists k\in \mathbb{N} \ (n=k+1)$. Let $k_{0}\in \mathbb{N}$ be such that $n=k_{0}+1$. Then, $k_{0}+1<1$. This means $$k_{0}=k_{0}+1-1<1-1=0.$$However, by [[Zero as Smallest Natural Number]], $0\leq k_{0}$, so $0<k_{0}$ or $0=k_{0}$. This again contradicts the fact that $<$ is trichotomous.
+- **Case** $n=0$. Since $0<n<1$, we have $n<0$, so $0<0$. However, by reflexivity $0=0$. This contradicts the fact that $<$ is trichotomous.
+- **Case** $\exists k\in \mathbb{N} \ (n=k+1)$. Let $k_{0}\in \mathbb{N}$ be such that $n=k_{0}+1$. Since $0<n<1$, we have $n<1$, so $k_{0}+1<1=0+1$. By [[Cancellation Properties on Orders Between Real Numbers]], this means $k_{0}<0$. However, by [[Zero as Smallest Natural Number]], $0\leq k_{0}$. This again contradicts the fact that $<$ is trichotomous.
 
 Since in each case we obtain a contradiction, the assumption that $0<n<1$ must be false. Therefore, $\neg(0<n<1)$. $\blacksquare$
 
@@ -13,7 +13,7 @@ Since in each case we obtain a contradiction, the assumption that $0<n<1$ must b
 - **Base Case.** By the first statement, there does not exist $m\in \mathbb{N}$ such that $0<m<1$. Therefore, $\varphi(0)$ is true.
 - **Induction Step.** Suppose $x\in \mathbb{N}$, and suppose that $\varphi(x)$ is true. For the sake of negation, suppose that there is $m\in \mathbb{N}$ such that $x+1<m<x+2$. By [[Normal Forms of Natural Numbers]], $m=0$ or $m=k+1$ for some $k\in \mathbb{N}$. We proceed by cases; in each case we will show a contradiction.
 	- **Case** $m=0$. This means $x+1<0$. However, by [[Zero as Smallest Natural Number]] $0\leq x+1$. This contradicts the fact that $<$ is trichotomous.
-	- **Case** $\exists k\in \mathbb{N} \ (m=k+1)$. Let $k_{0}\in \mathbb{N}$ be such that $m=k_{0}+1$. This means $x+1<k_{0}+1<x+2$, so by the first order property of real numbers $$x=x+1-1<k_{0}+1-1=k_{0}$$and $$k_{0}=k_{0}+1-1<x+2-1=x+1.$$We now have $x<k_{0}<x+1$, where $k_{0}\in \mathbb{N}$. This contradicts the fact that $\varphi(x)$ is true.
+	- **Case** $\exists k\in \mathbb{N} \ (m=k+1)$. Let $k_{0}\in \mathbb{N}$ be such that $m=k_{0}+1$. This means $x+1<k_{0}+1<x+2$, so by [[Cancellation Properties on Orders Between Real Numbers]] $x<k_{0}<x+1$. This contradicts the fact that $\varphi(x)$ is true.
 
 	Since in each case we obtain a contradiction, the assumption that there is $m\in \mathbb{N}$ such that $x+1<m<x+2$ must be false. Therefore, there is no $m\in \mathbb{N}$ such that $x+1<m<x+2$, so $\varphi(x+1)$ is also true. $\blacksquare$
 
@@ -28,3 +28,4 @@ Theorems used:
 - [[Principle of Mathematical Induction]]
 - [[Zero as Smallest Natural Number]]
 - [[Normal Forms of Natural Numbers]]
+- [[Cancellation Properties on Orders Between Real Numbers]]

@@ -11,7 +11,7 @@
 - **Injectivity.** Suppose $s,t\in S$, and suppose that $f(s)=f(t)$. Then, $s\circ g=t\circ g$. By [[Cancellation Properties on Groups]], this means $s=t$.
 - **Surjectivity.** Suppose $t\in S\circ g$. Then, there is $s\in S$ such that $t=s\circ g$. Therefore, $t=f(s)$. $\blacksquare$
 
-**Proof of Third Statement.** By the first and second statement, $S\cong g\circ S$ and $S\cong S\circ g$. Therefore, by [[Symmetry of Set Isomorphism Relation]] and [[Transitivity of Set Isomorphism Relation]], $g\circ S\cong S\circ g$. $\blacksquare$
+**Proof of Third Statement.** By the first and second statement, $S\cong g\circ S$ and $S\cong S\circ g$. Therefore, by [[Isomorphism Relation as Equivalence Relation]] and [[Bijective Functions as Isomorphisms]], $g\circ S\cong S\circ g$. $\blacksquare$
 ***
 Definitions used:
 - [[Group]]
@@ -23,5 +23,5 @@ Definitions used:
 
 Theorems used:
 - [[Cancellation Properties on Groups]]
-- [[Symmetry of Set Isomorphism Relation]]
-- [[Transitivity of Set Isomorphism Relation]]
+- [[Isomorphism Relation as Equivalence Relation]]
+- [[Bijective Functions as Isomorphisms]]

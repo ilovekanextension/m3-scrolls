@@ -5,7 +5,7 @@
 4. Suppose $a,b\in \mathbb{R}$. Suppose that $a>0$ and $b>0$, and suppose that $a<b$. Then, $1/b<1/a$.
 5. Suppose $a,b\in \mathbb{R}$. Suppose that $a>0$ and $b>0$, and suppose that $a\leq b$. Then, $1/b\leq1/a$.
 
-**Proof of First Statement.** By the first order property, we have
+**Proof of First Statement.** We have
 $$\begin{align}
 a<b & \iff a-a-b<b-a-b \\
  & \iff 0-b<0-a \\
@@ -25,14 +25,14 @@ To prove that $\neg(0>1/a)$, assume for the sake of negation that $0>1/a$. Then,
 
 To prove that $\neg(1/a=0)$, assume for the sake of negation that $1/a=0$. Then, by [[Multiplications with Ring Zeros]] $$1=(1/a)\cdot a=0\cdot a=0.$$This contradicts the fact that $\mathbb{R}$ is a field: by definition, fields are nontrivial, so $1\neq 0$. Therefore, the assumption that $1/a=0$ must be false, so $\neg(1/a=0)$. $\blacksquare$
 
-**Proof of Fourth Statement.** Since $a>0$ and $b>0$, by the third statement we have $1/a>0$ and $1/b>0$. By the second order property, since $a<b$ we have
+**Proof of Fourth Statement.** Since $a>0$ and $b>0$, by the third statement we have $1/a>0$ and $1/b>0$. Since $a<b$, we have
 $$\begin{align}
 & a\cdot(1/a)\cdot(1/b)<b\cdot(1/a)\cdot(1/b) \\
  & \Rightarrow 1\cdot(1/b)<1\cdot(1/a) \\
  & \Rightarrow 1/b<1/a.\blacksquare
 \end{align}$$
 
-**Proof of Fifth Statement.** Since $a>0$ and $b>0$, by the third statement we have $1/a>0$ and $1/b>0$, so $1/a\geq 0$ and $1/b\geq 0$. By the second order property, since $a\leq b$ we have
+**Proof of Fifth Statement.** Since $a>0$ and $b>0$, by the third statement we have $1/a>0$ and $1/b>0$, so $1/a\geq 0$ and $1/b\geq 0$. Since $a\leq b$ we have
 $$\begin{align}
 & a\cdot(1/a)\cdot(1/b)\leq b\cdot(1/a)\cdot(1/b) \\
  & \Rightarrow 1\cdot(1/b)\leq 1\cdot(1/a) \\

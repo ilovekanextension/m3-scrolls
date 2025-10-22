@@ -1,4 +1,4 @@
-**Definition.** We axiomatically define the mathematical structure of **real numbers** as a structure consisting of
+**Definition.** We axiomatically define the mathematical structure of **real numbers** as a Dedekind-complete ordered field, i.e. a structure consisting of
 - a set $\mathbb{R}$ of **real numbers**,
 - objects $0\in \mathbb{R}$ and $1\in \mathbb{R}$ called **zero** and **one** respectively,
 - two operations $+:\mathbb{R}\times \mathbb{R}\to \mathbb{R}$ and $\cdot:\mathbb{R}\times \mathbb{R}\to \mathbb{R}$ called **addition** and **multiplication** respectively,

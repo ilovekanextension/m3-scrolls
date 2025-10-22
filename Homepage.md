@@ -308,8 +308,12 @@ Start navigating through the notes from the [[Homepage]].
 	- Theorem: [[Orders Between Additive and Multiplicative Inverses]]
 	- Theorem: [[Preservation of Strict Total Orders Under Addition and Multiplication]]
 	- Theorem: [[Preservation of Total Orders Under Addition and Multiplication]]
+	- Theorem: [[Cancellation Properties on Orders Between Real Numbers]]
 	- Theorem: [[Bounds for Subsets Under Arithmetic Operations]]
 	- Theorem: [[Existence of Infima of Bounded-Below Subsets of Real Numbers]]
+	- Theorem: [[Criterion for Upper Bounds as Suprema]]
+	- Theorem: [[Archimedean Property]]
+		- Theorem: [[Unboundedness of Natural Numbers]]
 2. (add here)
 
 ## Ring Theory
@@ -477,7 +481,7 @@ Start navigating through the notes from the [[Homepage]].
 	- Theorem: [[Preservation of Subset Relation Under Images and Preimages]]
 	- Theorem: [[Criterion for Function Injectivity by Preimages of Images]]
 	- Theorem: [[Criterion for Function Surjectivity by Images of Preimages]]
-9. The Category of Sets and Functions
+9. Universal Properties on Sets and Functions
 	- Theorem: [[Singleton Sets as Terminal Objects]]
 	- Theorem: [[Empty Set as Initial Object]]
 	- Definition: [[Inclusion Function]]

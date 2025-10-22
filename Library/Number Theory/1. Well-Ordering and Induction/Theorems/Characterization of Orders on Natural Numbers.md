@@ -8,7 +8,7 @@
 	- **Induction Step.** Suppose $y\in \mathbb{N}$, and suppose that $\varphi(y)$ is true. Suppose $x\in \mathbb{N}$, and suppose that $x\leq y+1$. Then, by definition $x=y+1$ or $x<y+1$. We proceed by cases; in each case we will show that $\varphi(y+1)$ is true.
 		- **Case** $x=y+1$. Pick $k=0$. We have $$y+1=x=x+0=x+k.$$Therefore, $\varphi(y+1)$ is true.
 		- **Case** $x<y+1$. By [[Discreteness of Natural Numbers]], this means $x\leq y$. Since $\varphi(y)$ is true and $x\leq y$, there is $k\in \mathbb{N}$ such that $y=x+k$. This means $$y+1=(x+k)+1=x+(k+1).$$Therefore, $\varphi(y+1)$ is true. $\blacksquare$
-- **Backward Implication.** Suppose there is $k\in \mathbb{N}$ such that $n=m+k$. By [[Zero as Smallest Natural Number]], $0\leq k$, so by the first order property of real numbers $$m=m+0\leq m+k=n.\blacksquare$$
+- **Backward Implication.** Suppose there is $k\in \mathbb{N}$ such that $n=m+k$. By [[Zero as Smallest Natural Number]], $0\leq k$, so $$m=m+0\leq m+k=n.\blacksquare$$
 
 **Proof of Second Statement.**
 - **Forward Implication.** Suppose $m<n$. Then, $m\leq n$, so by the first statement there is $k\in \mathbb{N}$ such that $n=m+k$. To prove that there is $k\in \mathbb{N}-\{0\}$ such that $n=m+k$, it is enough to show that $k\neq 0$. To do this, assume for the sake of negation that $k=0$. Then, $m=n+0=n$. However, by assumption $m<n$. This contradicts the fact that $<$ is trichotomous. $\blacksquare$

@@ -15,4 +15,4 @@ Definitions used:
 - [[Group]]
 - [[Group Homomorphism]]
 - [[Subgroup]]
-- [[Image of Function]]
+- [[Image of Subset]]

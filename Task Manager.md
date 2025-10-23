@@ -3,7 +3,7 @@
 - [ ] Add theorems about unions and intersections of images and preimages in Library - Set Theory
 - [x] Add a note about closures under operations
 - [ ] Create a library for number theory
-- [ ] Construct the integers from the real numbers as multiples of 1 and prove that the well-ordering principle follows from completeness
+- [x] Construct the integers from the real numbers as multiples of 1 and prove that the well-ordering principle follows from completeness
 - [ ] Change Enumeration Notation in Library - Set Theory to instead describe singleton and doubleton sets, then reconstruct set enumeration notation after defining natural numbers
 - [x] belajar KOALA biar menang
 - [x] Change symbols for objects of categories in Library - Category Theory to be uppercase instead of lowercase letters

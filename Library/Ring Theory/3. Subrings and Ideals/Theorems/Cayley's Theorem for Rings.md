@@ -30,7 +30,7 @@ Definitions used:
 - [[Subring]]
 - [[Endomorphism Ring]]
 - [[Injective Function]]
-- [[Image of Function]]
+- [[Image of Subset]]
 
 Theorems used:
 - [[Images of Ring Homomorphisms as Subrings]]

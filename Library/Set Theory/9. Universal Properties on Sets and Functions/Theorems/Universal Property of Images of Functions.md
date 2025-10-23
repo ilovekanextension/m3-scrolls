@@ -55,8 +55,7 @@ Definitions used:
 - [[Function]]
 - [[Composition of Functions]]
 - [[Injective Function]]
-- [[Inclusion Function]]
-- [[Image of Function]]
+- [[Image of Subset]]
 - [[Categorical Diagram]]
 
 Theorems used:

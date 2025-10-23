@@ -12,7 +12,7 @@ Definitions used:
 - [[Group Action on Set]]
 - [[Subgroup]]
 - [[Injective Function]]
-- [[Image of Function]]
+- [[Image of Subset]]
 
 Theorems used:
 - [[Group Actions on Sets as Group Homomorphisms]]

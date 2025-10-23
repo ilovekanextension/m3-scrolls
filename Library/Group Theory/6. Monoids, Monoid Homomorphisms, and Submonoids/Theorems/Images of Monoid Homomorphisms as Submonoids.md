@@ -9,4 +9,4 @@ Definitions used:
 - [[Monoid]]
 - [[Monoid Homomorphism]]
 - [[Submonoid]]
-- [[Image of Function]]
+- [[Image of Subset]]

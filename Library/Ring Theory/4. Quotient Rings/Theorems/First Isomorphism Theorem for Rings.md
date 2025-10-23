@@ -21,7 +21,7 @@ Definitions used:
 - [[Group Homomorphism]]
 - [[Left and Right Coset]]
 - [[Surjective Function]]
-- [[Image of Function]]
+- [[Image of Subset]]
 
 Theorems used:
 - [[First Isomorphism Theorem for Groups]]

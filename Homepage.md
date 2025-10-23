@@ -314,7 +314,13 @@ Start navigating through the notes from the [[Homepage]].
 	- Theorem: [[Criterion for Upper Bounds as Suprema]]
 	- Theorem: [[Archimedean Property]]
 		- Theorem: [[Unboundedness of Natural Numbers]]
-2. (add here)
+2. Absolute Values
+	- Definition: [[Absolute Value]]
+	- Definition: [[Distance Function on Real Numbers]]
+	- Theorem: [[Absolute Value as Norm on Real Numbers]]
+	- Theorem: [[Absolute Value as Even Function]]
+	- Theorem: [[Distance Function on Real Numbers as Metric]]
+3. (add here)
 
 ## Ring Theory
 1. Basic Properties of Rings
@@ -415,17 +421,7 @@ Start navigating through the notes from the [[Homepage]].
 	- Definition: [[Difference of Sets]]
 	- Theorem: [[Difference with Empty Set]]
 	- Theorem: [[Self-Difference of Sets]]
-3. Families of Sets
-	- Definition: [[Power Set]]
-	- Theorem: [[Special Members of Power Sets]]
-	- Theorem: [[Power Set of Empty Set]]
-	- Theorem: [[Criterion for Singletons as Members of Power Sets]]
-	- Theorem: [[Monotonicity of Power Set Operation]]
-	- Definition: [[Union of Family of Sets]]
-	- Theorem: [[Unions of Families of Sets as Generalization of Binary Unions]]
-	- Definition: [[Intersection of Family of Sets]]
-	- Theorem: [[Intersections of Families of Sets as Generalization of Binary Intersections]]
-4. Relations Between Sets
+3. Relations Between Sets
 	- Definition: [[Cartesian Product]]
 	- Definition: [[Relation]]
 	- Definition: [[Domain of Relation]]
@@ -437,7 +433,7 @@ Start navigating through the notes from the [[Homepage]].
 	- Theorem: [[Involution Property on Relation Inverses]]
 	- Theorem: [[Associativity of Relation Composition]]
 	- Theorem: [[Inverses of Composite Relations]]
-5. Functions Between Sets
+4. Functions Between Sets
 	- Definition: [[Function]]
 	- Theorem: [[Extensionality of Functions]]
 	- Definition: [[Category of Sets]]
@@ -448,16 +444,17 @@ Start navigating through the notes from the [[Homepage]].
 			- Theorem: [[Compositions of Functions as Functions]]
 		- Theorem: [[Evaluations of Composite Functions]]
 		- Theorem: [[Compositions with Identity Functions]]
-6. Injective and Surjective Functions
+5. Injective and Surjective Functions
 	- Definition: [[Injective Function]]
 	- Theorem: [[Compositions of Injective Functions as Injective Functions]]
 	- Theorem: [[Injectivity of Left Invertible Functions]]
 	- Theorem: [[Injective Functions as Monomorphisms]]
+	- Definition: [[Inclusion Function]]
 	- Definition: [[Surjective Function]]
 	- Theorem: [[Compositions of Surjective Functions as Surjective Functions]]
 	- Theorem: [[Surjectivity of Right Invertible Functions]]
 	- Theorem: [[Surjective Functions as Epimorphisms]]
-7. Bijective Functions and Set Isomorphisms
+6. Bijective Functions and Set Isomorphisms
 	- Definition: [[Bijective Function]]
 	- Definition: [[Inverse of Bijective Function]]
 		- Theorem: [[Relation Inverses of Bijective Functions as Functions]]
@@ -470,6 +467,13 @@ Start navigating through the notes from the [[Homepage]].
 		- Theorem: [[Inverses of Bijective Functions as Bijective Functions]]
 	- Theorem: [[Transitivity of Set Isomorphism Relation]]
 		- Theorem: [[Compositions of Bijective Functions as Bijective Functions]]
+7. Power Sets and Cantor's Theorem
+	- Definition: [[Power Set]]
+	- Theorem: [[Special Members of Power Sets]]
+	- Theorem: [[Power Set of Empty Set]]
+	- Theorem: [[Criterion for Singletons as Members of Power Sets]]
+	- Theorem: [[Monotonicity of Power Set Operation]]
+	- Theorem: [[Cantor's Theorem]]
 8. Closures and Images
 	- Definition: [[Closed Subset]]
 	- Definition: [[Closure of Subset]]
@@ -481,11 +485,17 @@ Start navigating through the notes from the [[Homepage]].
 	- Theorem: [[Preservation of Subset Relation Under Images and Preimages]]
 	- Theorem: [[Criterion for Function Injectivity by Preimages of Images]]
 	- Theorem: [[Criterion for Function Surjectivity by Images of Preimages]]
+	- Definition: [[Power Set Functor]]
+	- Definition: [[Family of Subsets]]
+	- Definition: [[Union of Family of Sets]]
+	- Definition: [[Intersection of Family of Sets]]
+	- Theorem: [[Images of Unions and Intersections Under Functions]]
+	- Theorem: [[Preimages of Unions and Intersections Under Functions]]
+	- Theorem: [[Characterization of Preimage Functions]]
+		- Theorem: [[Sets as Unions of Singletons]]
 9. Universal Properties on Sets and Functions
 	- Theorem: [[Singleton Sets as Terminal Objects]]
 	- Theorem: [[Empty Set as Initial Object]]
-	- Definition: [[Inclusion Function]]
-	- Definition: [[Image of Function]]
 	- Theorem: [[Universal Property of Images of Functions]]
 10. (add here)
 

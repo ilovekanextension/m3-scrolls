@@ -1,0 +1,1 @@
+**Definition.** Let $\mathsf{C}$ and $\mathsf{D}$ be categories. Let $F:\mathsf{C}\to \mathsf{D}$ be left adjoint to $G:\mathsf{D}\to \mathsf{C}$. 

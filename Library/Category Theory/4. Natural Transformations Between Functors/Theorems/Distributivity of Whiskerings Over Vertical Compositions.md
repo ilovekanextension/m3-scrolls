@@ -15,8 +15,8 @@
 \arrow[""{name=g1, above}, phantom, from=1-1, to=1-2]
 \arrow[""{name=g2, below}, phantom, from=1-1, to=1-2]
 \arrow[""{name=h}, phantom, from=1-1, to=1-2, bend right=50]
-\arrow["\nu"{inner sep=0.8ex}, from=f, to=g1, Rightarrow]
-\arrow["\sigma"{inner sep=0.8ex}, from=g2, to=h, Rightarrow]
+\arrow["\nu"{inner sep=0.8ex}, from=f, to=g1, double]
+\arrow["\sigma"{inner sep=0.8ex}, from=g2, to=h, double]
 \end{tikzcd}
 \end{document}
 ```
@@ -38,8 +38,8 @@ Then, $$K(\sigma\circ \nu)=K\sigma\circ K\nu.$$Likewise, let the following be a 
 \arrow[""{name=g1, above}, phantom, from=1-2, to=1-3]
 \arrow[""{name=g2, below}, phantom, from=1-2, to=1-3]
 \arrow[""{name=h}, phantom, from=1-2, to=1-3, bend right=50]
-\arrow["\nu"{inner sep=0.8ex}, from=f, to=g1, Rightarrow]
-\arrow["\sigma"{inner sep=0.8ex}, from=g2, to=h, Rightarrow]
+\arrow["\nu"{inner sep=0.8ex}, from=f, to=g1, double]
+\arrow["\sigma"{inner sep=0.8ex}, from=g2, to=h, double]
 \end{tikzcd}
 \end{document}
 ```

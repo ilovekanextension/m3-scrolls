@@ -6,6 +6,7 @@ Definitions used:
 - [[Real Numbers]]
 - [[Natural Numbers]]
 - [[Supremum]]
+- [[Nonempty Set]]
 
 Theorems used:
 - [[Positivity of Squares of Real Numbers]]

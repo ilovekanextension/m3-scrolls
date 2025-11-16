@@ -4,7 +4,7 @@
 
 Formally, a diagram of $\mathsf{C}$ is therefore just (the image of) a functor $F$ from a small category $\mathsf{I}$ to $\mathsf{C}$. We proceed to say that $\mathsf{I}$ is the **index** of $F$ and that $F$ has the **shape** of $\mathsf{I}$.
 
-Diagrams are usually depicted visually as directed edges between vertices as follows.
+Visually, diagrams may be depicted as directed edges between vertices. The following is an example.
 
 ```tikz
 \usepackage{amsmath, amssymb, amsfonts, tikz-cd}
@@ -21,7 +21,7 @@ A & B \\
 \end{document}
 ```
 
-We say that a diagram **commutes** or **is commutative** if for all morphisms $f$ and $g$ in the diagram sharing the same source and target, we have $f=g$. For example, commutativity of the diagram above means $g\circ f=h$.
+We say that a diagram **commutes** or **is commutative** if for all morphisms $f$ and $g$ in the diagram sharing the same source and target, we have $f=g$. For instance, commutativity of the diagram in the example above means $g\circ f=h$.
 ***
 Definitions used:
 - [[Category]]

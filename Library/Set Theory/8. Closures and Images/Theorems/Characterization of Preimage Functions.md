@@ -42,7 +42,12 @@ g(X) & =g\left(\bigcup_{x\in X}\{x\}\right) \\
  & =f^{-1}[X].
 \end{align}$$
 
-Now suppose $h:A\to B$, and suppose that $g=h^{-1}[{-}]$. To show that $f=h$, by [[Extensionality of Functions]] it is enough to show that $f(a)=h(a)$ for all $a\in A$. Suppose $a\in A$. By definition of $f$, $a\in g(\{f(a)\})$. Also, since $g=h^{-1}[{-}]$, by [[Extensionality of Functions]] $g(\{h(a)\})=h^{-1}[\{h(a)\}]$. By definition, $$h^{-1}[\{h(a)\}]=\{b\in B\mid \exists x\in A \ (h(x)\in\{h(a)\})\}=\{b\in B\mid \exists x\in A \ (h(x)=h(a))\},$$so since $h(a)=h(a)$ we have $a\in h^{-1}[\{h(a)\}]$. Thus, $a\in g(\{h(a)\})$. By a previous uniqueness argument, since $a\in g(\{f(a)\})$ and $a\in g(\{h(a)\})$, we must have $f(a)=h(a)$. $\blacksquare$
+Now suppose $h:A\to B$, and suppose that $g=h^{-1}[{-}]$. To show that $f=h$, by [[Extensionality of Functions]] it is enough to show that $f(a)=h(a)$ for all $a\in A$. Suppose $a\in A$. By definition of $f$, $a\in g(\{f(a)\})$. Also, since $g=h^{-1}[{-}]$, by [[Extensionality of Functions]] $g(\{h(a)\})=h^{-1}[\{h(a)\}]$. By definition,
+$$\begin{align}
+h^{-1}[\{h(a)\}] & =\{b\in B\mid \exists x\in A \ (h(x)\in\{h(a)\})\} \\
+ & =\{b\in B\mid \exists x\in A \ (h(x)=h(a))\},
+\end{align}$$
+so since $h(a)=h(a)$ we have $a\in h^{-1}[\{h(a)\}]$. Thus, $a\in g(\{h(a)\})$. By a previous uniqueness argument, since $a\in g(\{f(a)\})$ and $a\in g(\{h(a)\})$, we must have $f(a)=h(a)$. $\blacksquare$
 ***
 Definitions used:
 - [[Set]]

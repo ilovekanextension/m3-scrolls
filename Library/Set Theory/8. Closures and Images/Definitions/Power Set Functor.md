@@ -1,4 +1,4 @@
-**Definition.** By [[Power Set Functor as Functor]] The map that assigns
+**Definition.** By [[Power Set Functor as Functor]], the map that assigns
 - to each set $A$ the power set $\mathcal{P}(A)$ and
 - to each function $f:A\to B$ the preimage function $f^{-1}[{-}]:\mathcal{P}(B)\to\mathcal{P}(A)$
 

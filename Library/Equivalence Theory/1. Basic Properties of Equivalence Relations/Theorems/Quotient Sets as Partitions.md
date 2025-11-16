@@ -11,6 +11,7 @@
 ***
 Definitions used:
 - [[Set]]
+- [[Nonempty Set]]
 - [[Equivalence Relation]]
 - [[Equivalence Class]]
 - [[Quotient Set]]

@@ -1,0 +1,5 @@
+**Theorem.** $\mathbb{N}$ is an infinite set.
+
+**Proof.** Define a proposition $\varphi$ on $\mathbb{N}$ as $$\varphi(n):\equiv \neg(\mathbb{N}\cong\mathbb{N}_{n}).$$We will first show by [[Principle of Mathematical Induction]] that $\varphi(n)$ is true for all $n\in \mathbb{N}$.
+- **Base Case**. For the sake of negation, assume that $\mathbb{N}\cong\mathbb{N}_{0}$. By [[Empty Set as Finite Set]], $\varnothing\cong \mathbb{N}_{0}$, so by [[Isomorphism Relation as Equivalence Relation]] $\mathbb{N}\cong\varnothing$. We can therefore choose a bijective function $f:\mathbb{N}\to\varnothing$. Since $0\in \mathbb{N}$, we then have $f(0)\in\varnothing$. This contradicts the fact that $\varnothing$ is empty. Therefore, the assumption that $\mathbb{N}\cong \mathbb{N}_{0}$ must be false, so $\neg(\mathbb{N}\cong\mathbb{N}_{0})$. This means $\varphi(0)$ is true.
+- **Induction Step.** Suppose $n\in \mathbb{N}$, and suppose that $\varphi(n)$ is true. For the sake of negation, assume that $\mathbb{N}\cong\mathbb{N}_{n+1}$.

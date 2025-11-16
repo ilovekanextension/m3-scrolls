@@ -98,6 +98,8 @@ Start navigating through the notes from the [[Homepage]].
 			- Theorem: [[Change of Legs of Cones and Cocones by Compositions with Morphisms]]
 	- Definition: [[Categorical Limit and Colimit]]
 		- Theorem: [[Uniqueness of Categorical Limits and Colimits]]
+	- Definition: [[Complete and Cocomplete Category]]
+	- Theorem: [[Completeness of Category of Sets]]
 	- Definition: [[Empty Category]]
 	- Definition: [[Empty Functor]]
 	- Definition: [[Terminal Object]]
@@ -111,7 +113,8 @@ Start navigating through the notes from the [[Homepage]].
 	- Definition: [[Span Category]]
 	- Definition: [[Categorical Pullback]]
 	- Definition: [[Categorical Pushout]]
-7. (add here)
+7. Adjoint Functors
+8. (add here)
 
 ## Equivalence Theory
 1. Basic Properties of Equivalence Relations
@@ -383,7 +386,7 @@ Start navigating through the notes from the [[Homepage]].
 	- Definition: [[Maximal Ideal]]
 	- Theorem: [[Maximal Ideals as Prime Ideals]]
 	- Theorem: [[Criterion for Maximal Ideals]]
-6. Primes and Irreducibles
+6. Prime and Irreducible Elements
 	- Definition: [[Divisor]]
 	- Theorem: [[Divisibility Relations in Commutative Rings as Preorders]]
 	- Theorem: [[Ones as Divisors of All Objects in Commutative Rings]]
@@ -404,7 +407,6 @@ Start navigating through the notes from the [[Homepage]].
 	- Theorem: [[Empty Set as Subset of Any Set]]
 	- Definition: [[Nonempty Set]]
 	- Definition: [[Singleton]]
-	- Definition: [[Doubleton]]
 	- Definition: [[Set Builder Notation]]
 	- Theorem: [[Injectivity of Set Builder Notation]]
 2. Operations on Sets
@@ -442,8 +444,8 @@ Start navigating through the notes from the [[Homepage]].
 			- Theorem: [[Identity Relations as Functions]]
 		- Definition: [[Composition of Functions]]
 			- Theorem: [[Compositions of Functions as Functions]]
-		- Theorem: [[Evaluations of Composite Functions]]
 		- Theorem: [[Compositions with Identity Functions]]
+	- Theorem: [[Evaluations of Composite Functions]]
 5. Injective and Surjective Functions
 	- Definition: [[Injective Function]]
 	- Theorem: [[Compositions of Injective Functions as Injective Functions]]
@@ -461,12 +463,6 @@ Start navigating through the notes from the [[Homepage]].
 	- Theorem: [[Values of Inverse Functions]]
 	- Theorem: [[Compositions of Bijective Functions with Their Inverses as Identity Functions]]
 	- Theorem: [[Bijective Functions as Isomorphisms]]
-	- Theorem: [[Reflexivity of Set Isomorphism Relation]]
-		- Theorem: [[Identity Functions as Bijective Functions]]
-	- Theorem: [[Symmetry of Set Isomorphism Relation]]
-		- Theorem: [[Inverses of Bijective Functions as Bijective Functions]]
-	- Theorem: [[Transitivity of Set Isomorphism Relation]]
-		- Theorem: [[Compositions of Bijective Functions as Bijective Functions]]
 7. Power Sets and Cantor's Theorem
 	- Definition: [[Power Set]]
 	- Theorem: [[Special Members of Power Sets]]
@@ -486,6 +482,7 @@ Start navigating through the notes from the [[Homepage]].
 	- Theorem: [[Criterion for Function Injectivity by Preimages of Images]]
 	- Theorem: [[Criterion for Function Surjectivity by Images of Preimages]]
 	- Definition: [[Power Set Functor]]
+		- Theorem: [[Power Set Functor as Functor]]
 	- Definition: [[Family of Subsets]]
 	- Definition: [[Union of Family of Sets]]
 	- Definition: [[Intersection of Family of Sets]]
@@ -496,8 +493,16 @@ Start navigating through the notes from the [[Homepage]].
 9. Universal Properties on Sets and Functions
 	- Theorem: [[Singleton Sets as Terminal Objects]]
 	- Theorem: [[Empty Set as Initial Object]]
-	- Theorem: [[Universal Property of Images of Functions]]
-10. (add here)
+	- Theorem: [[Cartesian Products as Products]]
+	- Theorem: [[Disjoint Unions as Coproducts]]
+	- Theorem: 
+10. Cardinality of Sets
+	- Definition: [[Natural Index Set]]
+	- Theorem: [[Natural Index Sets with Nonzero Length as Nonempty Sets]]
+	- Definition: [[Finite Set]]
+	- Theorem: [[Empty Set as Finite Set]]
+	- Theorem: 
+11. (add here)
 
 
 # Textbook Exercises

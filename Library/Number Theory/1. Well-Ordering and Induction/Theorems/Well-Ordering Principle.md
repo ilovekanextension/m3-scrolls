@@ -16,6 +16,7 @@ Since $S$ is nonempty, there is $x\in \mathbb{N}$ such that $x\in S$. By the pre
 ***
 Definitions used:
 - [[Natural Numbers]]
+- [[Nonempty Set]]
 
 Theorems used:
 - [[Principle of Mathematical Induction]]

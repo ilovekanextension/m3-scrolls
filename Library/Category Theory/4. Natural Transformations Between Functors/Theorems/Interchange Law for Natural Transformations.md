@@ -17,14 +17,14 @@
 \arrow[""{name=g1, above}, phantom, from=1-1, to=1-2]
 \arrow[""{name=g2, below}, phantom, from=1-1, to=1-2]
 \arrow[""{name=h}, phantom, from=1-1, to=1-2, bend right=50]
-\arrow["\nu"{inner sep=0.8ex}, from=f, to=g1, Rightarrow]
-\arrow["\sigma"{inner sep=0.8ex}, from=g2, to=h, Rightarrow]
+\arrow["\nu"{inner sep=0.8ex}, from=f, to=g1, double]
+\arrow["\sigma"{inner sep=0.8ex}, from=g2, to=h, double]
 \arrow[""{name=j}, phantom, from=1-2, to=1-3, bend left=50]
 \arrow[""{name=k1, above}, phantom, from=1-2, to=1-3]
 \arrow[""{name=k2, below}, phantom, from=1-2, to=1-3]
 \arrow[""{name=ell}, phantom, from=1-2, to=1-3, bend right=50]
-\arrow["\eta"{inner sep=0.8ex}, from=j, to=k1, Rightarrow]
-\arrow["\varepsilon"{inner sep=0.8ex}, from=k2, to=ell, Rightarrow]
+\arrow["\eta"{inner sep=0.8ex}, from=j, to=k1, double]
+\arrow["\varepsilon"{inner sep=0.8ex}, from=k2, to=ell, double]
 \end{tikzcd}
 \end{document}
 ```

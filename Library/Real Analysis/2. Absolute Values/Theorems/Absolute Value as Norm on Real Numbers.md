@@ -25,6 +25,7 @@
 **Proof of Fourth Statement.** First observe that, by [[Positivity of Squares of Real Numbers]], $1\geq0$, so by [[Orders Between Additive and Multiplicative Inverses]] and [[Inverses of Group Identities]] $-1\leq 0$. This means $|{-1}|=-(-1)=1$. Now, by [[Multiplications with Additive Inverses of Ring Ones]], [[Multiplications with Ring Zeros]], and the first, second, and third statement above, since $a+(-a)=0$, we have
 $$\begin{align}
 2\cdot 0 & =0 \\
+ & =|0| \\
  & =|a+(-a)| \\
  & \leq|a|+|{-a}| \\
  & =|a|+|(-1)\cdot a| \\
